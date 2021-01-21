@@ -1,0 +1,124 @@
+
+.fancybox-overlay{
+    background: rgba(0,0,0, 0.8);
+}
+
+.fancybox-skin{
+    background:none;
+}
+
+.fancybox-wrap{
+    
+    .fancybox-skin{
+        padding:0!important;
+        border-radius: 0;
+    }
+
+    .fancybox-close{
+        background-image: url(../images/icon/icon-close-modal.svg);
+        width:15px;
+        height:15px;
+        background-size:15px;
+        background-repeat: no-repeat;
+        top:20px;
+        right:20px;
+    }
+
+}
+
+
+
+.modal-wrapper{
+    width:1150px;
+    height:580px;
+    border-radius:20px;
+    padding:40px;
+    background:$white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    .modal-image{
+        flex-basis: calc(100% - 605px);
+        margin-right:100px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .modal-copy{
+        flex-basis:505px;
+
+        .title-main{
+            margin-bottom:20px;
+        }
+
+        .description{
+            border-left:none;
+            padding-left:0;
+            margin-right:60px;
+        }
+
+        .modal-price{
+            font-size:60px;
+            margin-bottom:0;
+            color:$green-onsen;
+        }
+
+        .modal-price-legals{
+            font-weight:300;
+            font-size:14px;
+            color:#BDBDBD;
+            margin-bottom:20px;
+        }
+
+    }
+
+
+    @media (max-width:$screen-xl){
+        width:100%;
+        height:auto;
+
+    }
+
+    @media (max-width:$screen-lg){
+        flex-direction: column-reverse;
+
+        .modal-image{
+            flex-basis: auto;
+            margin-right:0;
+            max-width:450px;
+            width:100%;
+
+        }
+
+        .modal-copy{
+            flex-basis: auto;
+            margin-bottom:30px;
+
+            .title-main{
+                line-height:40px;
+                margin-bottom:10px;
+            }
+
+            .description{
+                margin-right:0;
+            }
+        }
+    }
+
+
+    @media (max-width:$screen-md){
+        padding:40px 20px 20px;
+
+        .modal-image{
+            max-width:310px;
+            width:100%;
+
+        }
+
+    }
+
+}
+

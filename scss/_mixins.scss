@@ -1,0 +1,212 @@
+
+/* Clearfix */
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+/* Font face */
+@mixin font-face($font-name, $font-path, $font-file, $font-weight: normal, $font-style: normal) {
+  @font-face {
+    font-family: '#{$font-name}';
+      src: url('#{$font-path}/#{$font-file}.eot');
+      src: url('#{$font-path}/#{$font-file}?#iefix') format('embedded-opentype'),
+           url('#{$font-path}/#{$font-file}.woff') format('woff'),
+           url('#{$font-path}/#{$font-file}.ttf') format('truetype'),
+           url('#{$font-path}/#{$font-file}.svg##{$font-name}') format('svg');
+    font: {
+          weight: $font-weight;
+          style: $font-style;
+      }
+  }
+}
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin nofrills {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image: none;
+    text-shadow: none;
+    border:none;
+}
+
+@mixin backface-visibility($value) {
+    -webkit-backface-visibility: $value;
+    -moz-backface-visibility: $value;
+    backface-visibility: $value;                    
+}
+@mixin transform-style($val) {
+  -webkit-transform-style: $val;
+  -moz-transform-style: $val;
+  -ms-transform-style: $val;
+  transform-style: $val;
+}
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+@mixin transform($args...) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+    @include backface-visibility(hidden);
+    @include transform-style(preserve-3d);
+}
+
+@mixin vertical-align {
+    top: 50%;
+    @include transform(translateY(-50%));
+}
+
+@mixin horizontal-align {
+    left: 50%;
+    @include transform(translateX(-50%));
+}
+
+@mixin vertical-horizontal-align {
+    top: 50%;
+    left: 50%;
+    @include transform(translate3d(-50%, -50%, 0));
+}
+
+@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $spread $color;
+    -moz-box-shadow: $top $left $blur $spread $color;
+    box-shadow: $top $left $blur $spread $color;
+  }
+}
+
+@mixin text-shadow($x1:2px, $y1:2px, $blur1:5px, $color1:black, $x2:null, $y2:null, $blur2:null, $color2:null){
+    @if ($x2) {
+    text-shadow: $x1 $y1 $blur1 $color1, $x2 $y2 $blur2 $color2; 
+    }
+    @else {
+      text-shadow: $x1 $y1 $blur1 $color1;
+  }
+}
+
+@mixin optional-at-root($sel) {
+  @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+    @content;
+  }
+}
+
+
+@mixin placeholder {
+  @include optional-at-root('::-webkit-input-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root('::-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-ms-input-placeholder') {
+    @content;
+  }
+}
+
+@mixin arrowSlide($arrowLeft, $arrowRight, $arrowTop:false, ){
+
+    .owl-nav{
+        margin:0;
+        width:100%;
+        z-index:2;
+        position:absolute;
+        @include vertical-align();
+            
+        div{
+            background:none!important;
+            padding:0!important;
+            // background:#{$arrowColor}!important;
+            position:absolute;
+            top:#{$arrowTop};
+            margin:0!important;
+            border-radius:0!important;
+            opacity:1;
+            @include vertical-align;
+            filter:none!important;
+
+            &.owl-prev{
+                left:#{$arrowLeft};
+            }
+            &.owl-next{
+                right:#{$arrowRight};
+            }
+
+            &.disabled{
+              display:none;
+            }
+        }
+
+
+    }
+}
+
+
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+    
+@mixin animation($args...) {
+  -webkit-animation: $args;
+  -moz-animation: $args;
+  -o-animation: $args;
+  animation: $args;
+}
+
+
+@mixin animation-play-state($args...) {
+  -webkit-animation-play-state: $args;
+  -moz-animation-play-state: $args;
+  -o-animation-play-state: $args;
+  animation-play-state: $args;
+}
+

@@ -1,0 +1,124 @@
+/* Nav */
+.nav-wrapper-list .nav-wrapper-item {
+    border:none !important;
+}
+
+/* Hero */
+.hero-wrapper {
+    background-color: #F9F9F9;
+    background-image: url(http://foodshed.wearecapsule.com/wp-content/themes/foodshed/images/foodshed-hero-desktop.gif);
+    background-repeat: no-repeat;
+    background-position: center 240px;
+    background-size: 1110px auto;
+}
+
+@media (max-width:480px){
+
+    .hero-wrapper{
+        background-image: url(http://foodshed.wearecapsule.com/wp-content/themes/foodshed/images/foodshed-hero-mobile.gif);
+        background-size: 382px;
+        height:450px;
+        background-position: center 210px;
+        /*background-position: center 240px;
+        background-size: 1110px auto;*/
+    }
+
+}
+
+/* Team */
+.team-wrapper:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-image: url(http://foodshed.wearecapsule.com/wp-content/themes/foodshed/images/foodshed-team-image-mobile.gif);
+    background-size: 375px auto;
+    background-repeat: no-repeat;
+    background-position: right 135px center;
+    opacity: 1;
+
+}
+
+/* footer */
+.footer-links-mail a:hover {
+    color:#829BAD;
+}
+
+.foodshed-io-wrapper .main-title {
+    color:#1D294A;
+}
+
+.foodshed-io-wrapper .foodshed-io-description {
+    color:#1D294A;
+}
+
+.foodshed-io-wrapper .foodshed-io-image {
+    margin:80px auto 0;
+}
+
+.about-wrapper .about-description .textwidget p a:hover {
+    color:#4EAF8A;
+}
+
+@media (max-width: 992px) {
+    .team-carousel-item .team-carousel-header .team-carousel-name {
+        font-size:28px;
+    }
+
+    .foodshed-io-wrapper .foodshed-io-image {
+        float:none;
+        margin-top:0px;
+    }
+
+    .footer-wrapper .app-download {
+        margin-top:10px;
+    }
+}
+
+.hero-wrapper .container {
+    height:750px;
+}
+
+/* Form Subscribe */
+
+#mc_embed_signup{
+    padding:0;
+    margin-top:100px;
+}
+
+#mc_embed_signup form{
+    padding-left:0;
+}
+#mc_embed_signup h2{
+    color:#1A284D;
+}
+#mc_embed_signup .mc-field-group{
+    padding-bottom:0;
+    margin-bottom:15px;
+}
+
+#mc_embed_signup .required.email{
+    max-width:350px;
+    width:100%;
+    background:#F5F5F5;
+    height:52px;
+    border-radius:4px;
+    border:none;
+}
+
+#mc_embed_signup .button{
+    width:155px;
+    background-color:#00B288;
+    height:63px;
+    text-transform:uppercase;
+    font-size:20px;
+    font-family:'circularstd-bold';
+    border-radius:6px;
+}
+
+#mc_embed_signup .button:hover{
+    background-color:#00cc9b;
+}

@@ -1,0 +1,261 @@
+
+.contact-wrapper{
+    background:$black-blue;
+    padding-bottom:80px;
+    
+
+    .contact-newsletter{
+        padding:80px 0;
+        background:$green-onsen;
+
+        .title-main{
+            margin-bottom:50px;
+        }
+        
+        .contact-newsletter-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .contact-newsletter-form{
+                display: flex;
+                flex-direction: row;
+                width:100%;
+            }
+    
+            .contact-social{
+                margin-left:auto;
+                display: flex;
+                flex-direction: row;
+
+                .contact-social-item{
+                    margin-left:20px;
+                }
+            }
+
+        }
+
+       
+    }
+
+    .contact-footer{
+        padding:80px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .container.container-standard{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contact-footer-col{
+            flex-basis:50%;
+        }
+
+
+        .title-main{
+            margin-bottom:20px;
+            color:$white;
+        }
+
+        .contact-footer-data{
+            color:rgba($white, 0.3);
+            font-size:14px;
+            margin-bottom: 80px;
+
+            a{
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .contact-footer-form{
+            display: flex;
+            flex-direction: column;
+            
+            .contact-input{
+                margin-bottom:20px;
+            }
+
+            
+        }
+
+        .contact-message{
+            color:$white;
+            font-size:16px;
+        }
+
+        .contact-footer-image{
+            max-width:454px;
+            width:100%;
+            margin:100px auto 0;
+
+            img{
+                width:100%;
+            }
+        }
+    }
+
+    .contact-legals{
+        text-align: center;
+        font-size:14px;
+        color:$white;
+
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    @media (max-width:$screen-lg){
+
+        .contact-newsletter{
+    
+            .title-main{
+                margin-bottom:30px;
+            }
+            
+            .contact-newsletter-content{
+                flex-direction: column;
+                align-items: center;
+    
+                .contact-newsletter-form{
+                    margin-bottom:40px;
+                    flex-direction: column;
+
+                    .contact-input{
+                        margin-bottom:20px;
+                    }
+                }
+        
+                .contact-social{
+                    margin:0 auto;
+                    display: flex;
+                    flex-direction: row;
+    
+                    .contact-social-item{
+                        margin-left:20px;
+                    }
+                }
+    
+            }
+    
+           
+        }
+
+        .contact-footer{
+            display: flex;
+            flex-direction: column-reverse;
+    
+            .container.container-standard{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contact-footer-col{
+                flex-basis:auto;
+            }
+    
+            .contact-footer-data{
+                color:rgba($white, 0.3);
+                font-size:14px;
+                margin-bottom: 80px;
+            }
+    
+            .contact-footer-form{
+                display: flex;
+                flex-direction: column;
+                
+                .contact-input{
+                    margin-bottom:20px;
+                }
+    
+                
+            }
+    
+            .contact-footer-image{
+                max-width:454px;
+                width:100%;
+                margin:40px auto 0;
+            }
+        }
+    }
+
+
+    @media (max-width:$screen-md){
+
+        .contact-footer{
+            .contact-footer-image{
+                display: none;
+            }
+        }
+
+    }
+}
+
+.contact-input{
+    background:$blue-knight;
+    color:$white;
+    height:43px;
+    border-radius:150px;
+    border:none;
+    outline: none;
+    padding-left:20px;
+    font-size:14px;
+    max-width:340px;
+    width:100%;
+
+    &.input-newsletter{
+        max-width:412px;
+        margin-right:20px;
+        background:rgba($black-blue, 0.2);
+    }
+
+    &.contact-textarea{
+        height:95px;
+        border-radius:15px;
+        padding-top:10px;
+    }
+
+    @include placeholder{
+        color:rgba($white, 0.5);
+    }
+
+    @media (max-width:$screen-lg){
+        max-width:100%;
+        width: 100%;
+
+        &.input-newsletter{
+            max-width:100%;
+            width: 100%;
+        }
+    }
+
+}
+
+.contact-button{
+    border-radius:150px;
+    border:none;
+
+    &.button-newsletter{
+        height:43px;
+        background:$black-blue;
+        color:$green-onsen;
+        width:185px;
+    }
+
+    @media (max-width:$screen-lg){
+        max-width:100%;
+        width: 100%;
+
+        &.button-newsletter{
+            max-width:100%;
+            width: 100%;
+        }
+    }
+
+}
+

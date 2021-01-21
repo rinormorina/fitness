@@ -1,0 +1,73 @@
+
+.gyms-wrapper{
+    background:$green-onsen;
+    padding:120px 0;
+
+    .container-standard{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .gyms-content{
+        flex-basis:50%;
+
+        .gyms-image{
+            max-width:384px;
+            width:100%;
+            margin:auto;
+
+            img{
+                width:100%;
+            }
+
+        }
+
+    }
+
+    .gyms-copy{
+        max-width: 570px;
+
+        .overline{
+            color:$blue-knight;
+            margin-bottom:40px;
+        }
+
+        .title-main{
+            color:$blue-knight;
+            margin-bottom:40px;
+        }
+
+        .description{
+            color:$blue-knight;
+            border-left:2px solid $blue-knight;
+            margin-bottom:80px;
+            
+        }
+
+        .button-main{
+            width:190px;
+            border:2px solid $blue-knight;
+            color:$blue-knight;
+            background:rgba($blue-knight, 0.2);
+            line-height:36px;
+        }
+
+    }
+
+
+    @media (max-width:$screen-lg){
+
+        .container-standard{
+            flex-direction: column;
+        }
+
+        .gyms-copy{
+            max-width: 100%;
+            margin-left:auto;
+            margin-bottom:40px;
+        }
+
+    }
+
+}

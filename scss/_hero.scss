@@ -1,0 +1,259 @@
+
+$partners-heigth-mobile:160px;
+
+.hero-wrapper{
+    width:100%;
+    height:100vh;
+    position:relative;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+
+    .hero-copy{
+        position: absolute;
+        width:100%;
+        height:calc(100vh - #{$partners-heigth-mobile});
+        z-index: 3;
+        top:0;
+        left: 0;
+        display: flex;
+        align-items: center;
+
+        .overline{
+            margin-bottom:20px;
+        }
+
+        .title-main{
+            max-width:360px;
+            width:100%;
+            margin-bottom:20px;
+        }
+        
+
+        .description{
+            max-width:360px;
+            width:100%;
+            margin-bottom:30px;
+        }
+
+    }
+
+    .hero-carousel-desktop{
+        width:100%;
+        height:calc(100vh - #{$partners-heigth-mobile});
+        overflow: hidden;
+        position: relative;
+        z-index:1;
+
+        &::after{
+            content:'';
+            width:100%;
+            height: 100%;
+            top:0;
+            left:0;
+            position: absolute;
+            background: rgb(23,26,55);
+            background: -moz-linear-gradient(90deg, rgba(23,26,55,1) 33%, rgba(23,26,55,0) 66%);
+            background: -webkit-linear-gradient(90deg, rgba(23,26,55,1) 33%, rgba(23,26,55,0) 66%);
+            background: linear-gradient(90deg, rgba(23,26,55,1) 33%, rgba(23,26,55,0) 66%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171a37",endColorstr="#171a37",GradientType=1);
+        }
+
+
+        .hero-carousel-image{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+            height:calc(100vh - #{$partners-heigth-mobile});
+            overflow: hidden;
+
+            img{
+                width: auto;
+                height: 110%;
+            }
+        }
+    }
+
+    .hero-partners{
+        width:100%;
+        height:$partners-heigth-mobile;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $white;
+
+        .hero-partners-logo{
+            flex-basis: 160px;
+            margin:0 60px;
+
+            img{
+                width: 100%;
+            }
+
+        }
+
+
+    }
+
+    @media (min-width:2220px){
+
+        .hero-carousel-desktop{
+    
+            .hero-carousel-image{
+    
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+
+        }
+    }
+
+    @media (max-width:$screen-xxxl){
+       
+        .hero-carousel-desktop{
+    
+            .hero-carousel-image{
+    
+                img{
+                 
+                }
+
+            }
+
+        }
+
+    }
+
+    @media (max-width:$screen-lg){
+        background: $blue-knight;
+
+        .hero-copy{
+            z-index: 3;
+            align-items: flex-start;
+            padding-top: 140px;
+
+            .container-standard{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+    
+            .overline{
+                margin-bottom:20px;
+            }
+    
+            .title-main{
+                max-width:360px;
+                width:100%;
+                margin-bottom:20px;
+            }
+            
+    
+            .description{
+                max-width:360px;
+                width:100%;
+                margin-bottom:30px;
+            }
+
+            .button-main{
+                width:100%;
+                margin-top:auto;
+                margin-bottom:30px;
+            }
+    
+        }
+
+        .hero-carousel-desktop{
+            width:100%;
+            height:calc(100vh - #{$partners-heigth-mobile} - 200px);
+            margin-top:200px;
+    
+            &::after{
+                background: rgb(23,26,55);
+                background: -moz-linear-gradient(180deg, rgba(23,26,55,1) 0%, rgba(23,26,55,0) 100%);
+                background: -webkit-linear-gradient(180deg, rgba(23,26,55,1) 0%, rgba(23,26,55,0) 100%);
+                background: linear-gradient(180deg, rgba(23,26,55,1) 0%, rgba(23,26,55,0) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171a37",endColorstr="#171a37",GradientType=1);
+            }
+    
+    
+            .hero-carousel-image{
+                height:calc(100vh - #{$partners-heigth-mobile} - 200px) ;
+    
+                img{
+                    height:100%;
+                    @include transform(translateX(-160px));
+                }
+            }
+        }
+
+    }
+
+    @media (max-width:$screen-md){
+        $partners-heigth-mobile:100px;
+
+        .hero-copy{
+            padding-top: 100px;
+            height:calc(100vh - 100px) ;
+    
+            .title-main{
+                max-width:300px;
+                width:300px;
+            }
+            
+            .description{
+                max-width:300px;
+                width:300px;
+            }
+
+            .button-main{
+
+                margin-bottom:20px;
+            }
+    
+        }
+
+        .hero-carousel-desktop{
+            height:calc(100vh - 300px) ;
+    
+            .hero-carousel-image{
+                height:calc(100vh - 300px) ;
+    
+                img{
+                    height:100%;
+                    @include transform(translateX(-80px));
+                }
+            }
+        }
+
+        .hero-partners{
+            height:$partners-heigth-mobile;
+            overflow-x: scroll;
+    
+            .hero-partners-logo{
+                flex-basis: auto;
+                margin:0 10px;
+    
+            }
+    
+    
+        }
+
+    }
+
+    @media (max-width:1024px) and (orientation:landscape){
+
+
+
+    }
+
+    @media (max-width:812px) and (orientation:landscape){
+
+    
+    }
+
+}

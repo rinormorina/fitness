@@ -1,0 +1,162 @@
+@include keyframes(bottomFade){
+    0% {
+        transform:translateY(10%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(topFade){
+    0% {
+        // margin-top:50px;
+        opacity: 0;
+    }
+    100% {
+        // margin-top:0;
+        opacity:1;
+    }
+}
+
+@include keyframes(bottomFadeShort){
+    0% {
+        transform:translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(bottomFadeShortCenter){
+    0% {
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -30%);
+        opacity: 0;
+    }
+    100% {
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        opacity:1;
+    }
+}
+
+@include keyframes(topFadeShort){
+    0% {
+        transform:translateY(-20%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(rightFade){
+    0% {
+        transform:translateX(20%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(longLeftFade){
+    0% {
+        transform:translateX(-30%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(longRightFade){
+    0% {
+        transform:translateX(30%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@include keyframes(scaleBounce){
+    0% {
+        transform-origin:top;
+        transform:scale(0);
+        opacity: 0;
+    }
+    90% {
+        transform:scale(1.1);
+        opacity:1;
+    }
+    100% {
+        transform:scale(1);
+        opacity:1;
+        
+    }
+}
+
+@include keyframes(simpleFade){
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity:1;    
+    }
+}
+
+
+
+
+@include keyframes(showHeader){
+    0%{
+       @include transform(translateY(-100%));
+    }
+
+    100%{
+        @include transform(translateY(0));
+    }
+}
+
+@include keyframes(showHeaderMobile){
+    0%{
+       opacity: 0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+
+@include keyframes(faqFade){
+    0% {
+        opacity: 0;
+        max-height:0;
+        margin-bottom:0px;
+    }
+
+    60% {
+        opacity:0; 
+        max-height:400px;
+        margin-bottom:20px;   
+    }
+
+    100% {
+        opacity:1; 
+        max-height:400px;   
+        margin-bottom:20px;  
+    }
+}
