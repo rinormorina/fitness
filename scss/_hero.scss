@@ -69,8 +69,10 @@ $partners-heigth-mobile:160px;
             overflow: hidden;
 
             img{
-                width: auto;
-                height: 110%;
+                display: block;
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover; /* or object-fit: contain; */
             }
         }
     }
@@ -186,7 +188,6 @@ $partners-heigth-mobile:160px;
     
                 img{
                     height:100%;
-                    @include transform(translateX(-160px));
                 }
             }
         }
@@ -225,7 +226,7 @@ $partners-heigth-mobile:160px;
     
                 img{
                     height:100%;
-                    @include transform(translateX(-80px));
+                    
                 }
             }
         }
@@ -245,8 +246,55 @@ $partners-heigth-mobile:160px;
 
     }
 
-    @media (max-width:1024px) and (orientation:landscape){
+    @media (max-width:$screen-md) and (orientation:landscape){
 
+        .hero-copy{
+            padding-top: 100px;
+            height:calc(100vh - 80px) ;
+            
+            .overline{
+                margin-bottom:0;
+            }
+
+            .title-main{
+                max-width:100%;
+                width:100%;
+                margin-bottom:10px;
+            }
+            
+            .description{
+                max-width:100%;
+                width:100%;
+            }
+
+            .button-main{
+                margin-top:0;
+                margin-bottom:10px;
+            }
+    
+        }
+
+        .hero-carousel-desktop{
+            margin-top:0;
+            height:calc(100vh - 80px) ;
+
+            &::after{
+                background:rgba(#171a37, 0.6);
+            }
+    
+            .hero-carousel-image{
+                height:calc(100vh - 80px) ;
+            }
+
+        }
+
+        .hero-partners{
+            height:80px;
+    
+            .hero-partners-logo{
+                margin:0 30px;
+            }
+        }
 
 
     }
