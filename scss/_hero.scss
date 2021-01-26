@@ -115,17 +115,26 @@ $partners-heigth-mobile:160px;
     }
 
     @media (max-width:$screen-xxxl){
-       
-        .hero-carousel-desktop{
-    
-            .hero-carousel-image{
-    
-                img{
-                 
-                }
 
+    }
+
+    @media (max-width:$screen-xxl) and (max-height:670px){
+
+        .hero-copy{
+            margin-top:30px;
+
+            .overline{
             }
-
+    
+            .title-main{
+                max-width:100%;
+            }
+            
+    
+            .description{
+                max-width:50%;
+            }
+    
         }
 
     }
@@ -249,7 +258,7 @@ $partners-heigth-mobile:160px;
     @media (max-width:$screen-md) and (orientation:landscape){
 
         .hero-copy{
-            padding-top: 100px;
+            padding-top: 70px;
             height:calc(100vh - 80px) ;
             
             .overline{

@@ -119,7 +119,7 @@ $(document).ready(function() {
         items:1,
         nav:true,
         dots:false,
-        autoplay:false,
+        autoplay:true,
         navText : ["<i class='icon-item icon-arrow-left'></i>","<i class='icon-item icon-arrow-right'></i>"],
         responsive:{
             0:{
