@@ -144,7 +144,8 @@ $(document).ready(function() {
         responsive:{
             0:{
                 items:1,
-                nav:false
+                nav:false,
+                dots:true
             },
             780:{
                 items:2
