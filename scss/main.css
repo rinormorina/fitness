@@ -1463,6 +1463,16 @@ body {
   width: 100%;
 }
 
+.gyms-wrapper .gyms-content .gyms-video {
+  max-width: 384px;
+  width: 50%;
+  margin: auto;
+}
+
+.gyms-wrapper .gyms-content .gyms-video img {
+  width: 100%;
+}
+
 .gyms-wrapper .gyms-copy {
   max-width: 570px;
 }
