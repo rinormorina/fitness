@@ -1450,8 +1450,6 @@ body {
 
 .gyms-wrapper .video-responsive {
   text-align: center;
-  height: 560px;
-  width: 315px;
 }
 
 @media screen and (max-width: 560px) {
