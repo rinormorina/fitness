@@ -1449,23 +1449,18 @@ body {
 }
 
 .gyms-wrapper .video-responsive {
-  text-align: center;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-@media screen and (max-width: 560px) {
-  .gyms-wrapper .video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  .gyms-wrapper .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
+.gyms-wrapper .video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .gyms-wrapper .gyms-content {
