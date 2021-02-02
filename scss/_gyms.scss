@@ -9,39 +9,13 @@
         align-items: center;
     }
 
-   
-    .video-responsive {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: 0;
-    }
-    .video-responsive iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
-
-      
+    
     .gyms-content{
         flex-basis:50%;
 
         .gyms-image{
             max-width:384px;
             width:100%;
-            margin:auto;
-
-            img{
-                width:100%;
-            }
-
-        }
-
-        .gyms-video{
-            max-width:384px;
-            width:50%;
             margin:auto;
 
             img{

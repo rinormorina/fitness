@@ -1448,21 +1448,6 @@ body {
           align-items: center;
 }
 
-.gyms-wrapper .video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.gyms-wrapper .video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 .gyms-wrapper .gyms-content {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
@@ -1475,16 +1460,6 @@ body {
 }
 
 .gyms-wrapper .gyms-content .gyms-image img {
-  width: 100%;
-}
-
-.gyms-wrapper .gyms-content .gyms-video {
-  max-width: 384px;
-  width: 50%;
-  margin: auto;
-}
-
-.gyms-wrapper .gyms-content .gyms-video img {
   width: 100%;
 }
 
