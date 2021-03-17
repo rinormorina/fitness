@@ -1,0 +1,399 @@
+{
+  "languages": [
+    {
+      "english": {
+        "hero": {
+          "title": "THE SMART WORKOUT PARTNER",
+          "desc": "Trackbar connects with any iron at home and your gym to track time, movement and speed. Enhance your workout experience with Trackbar.",
+          "btn": "Buy Now"
+        },
+
+        "navigation": [
+          {
+            "id": "product",
+            "value": "Product"
+          },
+          {
+            "id": "features",
+            "value": "Features"
+          },
+          {
+            "id": "gyms",
+            "value": "Gyms"
+          },
+          {
+            "id": "blog",
+            "value": "Blog"
+          },
+          {
+            "id": "contact",
+            "value": "GET IN TOUCH"
+          }
+        ],
+        "testimonials": [
+          {
+            "id": "01",
+            "quote": "Trackbar offers me a whole new set of possibilities as an online coach.",
+            "coach": "<b>Lukas Weissmann</b> - Vienna, Austria"
+          },
+          {
+            "id": "02",
+            "quote": "I now can monitor my clients from all around the world.",
+            "coach": "<b>Mo Nkumba</b> - Linz, Austria"
+          },
+          {
+            "id": "03",
+            "quote": "Trackbar makes it possible to give clients detailed feedback on their workouts even when I cannot be right beside them!",
+            "coach": "<b>Riannon Clarke</b> - Vienna, Austria"
+          }
+        ],
+        "product": {
+          "title": "Training with <br /><b>Trackbar</b>",
+          "carousel": [
+            {
+              "productID": "01",
+              "page": "01/05",
+              "productTitle": "Digitise your workout",
+              "prodcutDesc": "It’s time to put down pen and paper at the gym. With Trackbar you can create workouts, and track and analyse performance data all in one place through our app."
+            },
+            {
+              "productID": "02",
+              "page": "02/05",
+              "productTitle": "Find your daily workout.",
+              "prodcutDesc": "Open a workout plan, create your own or start one of our free app workouts."
+            },
+            {
+              "productID": "03",
+              "page": "03/05",
+              "productTitle": "START <br />TRAINING",
+              "prodcutDesc": "Let us do the work while you do the workout. Trackbar not only guides you through your routine, but also keeps track of every repetition you do."
+            },
+            {
+              "productID": "04",
+              "page": "04/05",
+              "productTitle": "TRACK YOUR PROGRESS",
+              "prodcutDesc": "Every repetition is analysed by our algorithms and converted into stats. Track time, range of motion and speed to stay on top of progress."
+            },
+            {
+              "productID": "05",
+              "page": "05/05",
+              "productTitle": "Communicate with your coach.",
+              "prodcutDesc": "Connect directly through the Trackbar app to talk statistics, share workout modifications, or just catch up on progress! (coming this summer)"
+            }
+          ]
+        },
+
+        "platform": {
+          "title": "Join the Trackbar Digital Gym.",
+          "overline": "Trackbar Digital Gym Platform",
+          "desc": " Multi weekly workout plans, complemented by Live-Workouts, build around one type of equipment and suited for all diff. levels of experience. That is the Trackbar Digital Gym Platform.",
+          "buttonDesc": "Coming soon"
+        },
+        "feature": {
+          "titleMain": "The Smart Workout Partner",
+          "desc": "Making coaching easier, and training better.",
+          "featureList1": [
+            {
+              "featureID": "01",
+              "featureTitle": "Workout History",
+              "featureDesc": "Browse through every workout you have ever done with the click of a finger."
+            },
+            {
+              "featureID": "02",
+              "featureTitle": "Track Progress",
+              "featureDesc": "Automatic stat updates after every workout helps you to stay on top of progress."
+            },
+            {
+              "featureID": "03",
+              "featureTitle": "Optimise Workout Plans",
+              "featureDesc": "Create bespoke workout routines for your clients based on their individual data and statistics."
+            },
+            {
+              "featureID": "04",
+              "featureTitle": "Instant Communication",
+              "featureDesc": "Give feedback whenever and wherever you are. Helping you manage your clients and your time. (coming this summer)"
+            },
+            {
+              "featureID": "05",
+              "featureTitle": "Small, durable, light weight and 8 hours of battery life."
+            },
+            {
+              "featureID": "06",
+              "featureTitle": "With our magnetic connection you can connect the Trackbar to any iron at the gym."
+            },
+            {
+              "featureID": "07",
+              "featureTitle": "Tracks time, range of movement, speed."
+            },
+            {
+              "featureID": "08",
+              "featureTitle": "Reliable data with our AI - Sensor - Fusion - Algorithms that combine data from accelerometers, gyroscopes and a pressure sensors."
+            }
+          ],
+          "titleSecondary": "Sensor-Fusion Technology",
+          "descSecondary": "Trackbar is determined to deliver outstanding performance. That is why we packed it with the latest technology.",
+          "buttonDesc": "Buy Now"
+        },
+        "gym": {
+          "overline": "Are you a gym or organization?",
+          "title": "We are making every iron at the gym smart.",
+          "desc": "Our purpose is to enhace the workout experience and transform the gym industry with the future in mind. Are your ready to be the gym which stands out?!"
+        },
+        "price": {
+          "title": "Get Your Trackbar",
+          "desc": "Working out smart has never been easier. Make Trackbar your workout partner and monitor every repetition you perform. Share your data with your coach to receive perfect workout plans every single time.",
+          "priceTag": "€229",
+          "desc2": "<b> Get your Pre-Order Discount of 25% with your Coupon-Code: <br> Early-Bird-Special</b>",
+          "priceAnnotation": "(limited offer only)"
+        },
+        "blog": {
+          "title": "NEWS & UPDATES",
+          "carousel": [
+            { "title": "NEW RELEASE THIS SUMMER", "id": "01" },
+            { "title": "WHY TRAINING WITH OLYMPIC WEIGHTS?", "id": "02" },
+            { "title": "COMPLEMENT YOUR TRACKBAR WITH", "id": "03" }
+          ]
+        },
+        "faq": {
+          "title": "Frequently Asked Questions",
+          "questions": [
+            {
+              "question": "What is Trackbar and what is it supposed to do?",
+              "answer": "Trackbar is a sensor that is attached to weight lifting equipment. Measuring critical parameters like speed and range of motion it provides the coach and the athlete with insights about the workout and the progress. Further, it offers communication tools to intensify the relationship between athlete and coach (coming this summer). For both parties trackbar offers the possibility to digitize the workout."
+            },
+            {
+              "question": "Which parameter will be measurable and how exactly does Trackbar work?",
+              "answer": "We are measuring e.g. the range of motion, speed and eccentric / concentric movement times. In addition to inertial measurement units (IMU) we fuse the data with the latest pressure sensors which makes our measurements even more precise."
+            },
+            {
+              "question": " What makes Trackbar different from other trackers",
+              "answer": "Trackbar offers gyms, coaches and athletes to monitor their progress easily. The Trackbar sensor is not only built for professional sports, it is designed to provide a solution for everyone from the gym newbie over physiotherapists to pro athletes. With the help of the latest technology we serve everyone with the data they need for their workout."
+            },
+            {
+              "question": "Can the Trackbar data be integrated into other apps?",
+              "answer": "It is our clear target to integrate our software into as many existing solutions as possible. In case we do not provide an integration to the software you are using let us know. In addition to our integrations, we also provide a stand-alone version that can be downloaded for mobile devices."
+            },
+            {
+              "question": "What is the state of development of the Trackbar and when will be available on the market?",
+              "answer": "From 8.February on trackbar will be available for pre-order. Shipping will start at the beginning of March. PS: Sign up to our Newsletter to not miss any deals when we are launching."
+            }
+          ]
+        },
+        "newsletter": {
+          "title": "JOIN THE NEWSLETTER",
+          "button": "Send",
+          "error": "Sorry there was an error sending your form.",
+          "success": "Your message was sent successfully!"
+        },
+        "contact": {
+          "title": "Contact us",
+          "button": "Send",
+          "error": "Sorry there was an error sending your form.",
+          "success": "Your message was sent successfully!"
+        }
+      }
+    },
+    {
+      "deutsch": {
+        "hero": {
+          "title": "Der clevere Trainingspartner ",
+          "desc": "Bring die Trackbar auf jedem Eisen an welches du bewegst. Ob Zuhause oder im Gym um messe deine Performance. Verbessere deine Trainingserfahrung mit der Trackbar.",
+          "btn": "Jetzt Kaufen"
+        },
+
+        "navigation": [
+          {
+            "id": "product",
+            "value": "Produkt"
+          },
+          {
+            "id": "features",
+            "value": "Features"
+          },
+          {
+            "id": "gyms",
+            "value": "Gyms"
+          },
+          {
+            "id": "blog",
+            "value": "Blog"
+          },
+          {
+            "id": "contact",
+            "value": "Kontakt"
+          }
+        ],
+        "testimonials": [
+          {
+            "id": "01",
+            "quote": "Als Online Trainer bietet die Trackbar mir viele neue Möglichkeiten.",
+            "coach": "<b>Lukas Weissmann</b> - Wien, Österreich"
+          },
+          {
+            "id": "02",
+            "quote": "Ich kann meine Klienten jetzt von überall auf der Welt betreuen.",
+            "coach": "<b>Mo Nkumba</b> - Linz, Österreich"
+          },
+          {
+            "id": "03",
+            "quote": "Die Trackbar macht es möglich, meinen Kunden ein detailliertes Feedback zu ihren Trainings zugeben. Auch, wenn ich nicht direkt bei ihnen sein kann.",
+            "coach": "<b>Riannon Clarke</b> - Wien, Österreich"
+          }
+        ],
+        "product": {
+          "title": "Training mit <br /><b>Trackbar</b>",
+          "carousel": [
+            {
+              "productID": "01",
+              "page": "01/05",
+              "productTitle": "Digitalisiere dein Training.",
+              "prodcutDesc": "Es ist Zeit Stift und Papier zur Seite zu legen. Mit der Trackbar kreierst du Workouts, trackst diese und analysierst deine Performance."
+            },
+            {
+              "productID": "02",
+              "page": "02/05",
+              "productTitle": "Finde dein tägliches Workout",
+              "prodcutDesc": "Öffne deinen Trainingsplan, kreieren einen Neuen oder starte eines unserer kostenlosen Trainings"
+            },
+            {
+              "productID": "03",
+              "page": "03/05",
+              "productTitle": "STARTE <br />TRAINING",
+              "prodcutDesc": "Wir machen die Arbeit, während du dein Training absolvierst. Trackbar leitet dich nicht nur durch deine Trainingsroutine, sonder achtet auf jede Wiederholung die du machst."
+            },
+            {
+              "productID": "04",
+              "page": "04/05",
+              "productTitle": "Tracke deine Fortschritte ",
+              "prodcutDesc": "Jede einzelne Wiederholung wird von unserem Algorithmus analysiert und in eine Statistik umgewandelt. Miss deine Zeit, deinen Bewegungsumfang und deine Geschwindigkeit und bleibe immer an der Spitze deiner Leistung."
+            },
+            {
+              "productID": "05",
+              "page": "05/05",
+              "productTitle": "Bleibe in Kontakt mit deinem Coach",
+              "prodcutDesc": "Verbinde dich direkt über die Trackbar App. Besprich deine Statistiken, teile deine Trainingsveränderugnen und sei immer auf dem neuesten Stand."
+            }
+          ]
+        },
+
+        "platform": {
+          "title": "Tritt der digitalen Trackbar Trainingsplattform bei",
+          "overline": "Digitale Trackbar Trainingsplattform",
+          "desc": "Mehrmals wöchentlich Trainingspläne, ergänzt durch Live-Workouts, aufbauend auf einem, immer wechselnden Equipment. Passend für alle. Das ist die digitale Trackbar Gymplattform.",
+          "buttonDesc": "in Kürze"
+        },
+        "feature": {
+          "titleMain": "Der clevere Workoutpartner ",
+          "desc": "Mach dir dein Coaching leichter und die Trainings besser.",
+          "featureList1": [
+            {
+              "featureID": "01",
+              "featureTitle": "Workout Verlauf",
+              "featureDesc": "Mit einem Fingerklick scrollst du durch alle Workouts die du gemacht hast."
+            },
+            {
+              "featureID": "02",
+              "featureTitle": "Fortschritte tracken",
+              "featureDesc": "Automatische Updates der Statistik nach jedem Training helfen dir auf dem Laufenden zu bleiben."
+            },
+            {
+              "featureID": "03",
+              "featureTitle": "Optimiere Trainingspläne ",
+              "featureDesc": "Kreiere maßgeschneiderte Trainingsroutinen für deine Klienten, basierend auf deren Daten und Statistiken."
+            },
+            {
+              "featureID": "04",
+              "featureTitle": "Direkte Kommunikation",
+              "featureDesc": "Egal wann und wo du bist, gib deinen Klienten Feedback und manage deine Zeit flexibler. (Kommt diesen Sommer)"
+            },
+            {
+              "featureID": "05",
+              "featureTitle": "Kompakt, lange haltbar, leicht und 8 Stunden Batterielaufzeit."
+            },
+            {
+              "featureID": "06",
+              "featureTitle": "Mit dem Magneten kannst du die Trackbar an jedem Eisen im Fitnessstudio anbringen."
+            },
+            {
+              "featureID": "07",
+              "featureTitle": "Sie trackt deine Zeit, den Bewegungsumfang und die Geschwindigkeit."
+            },
+            {
+              "featureID": "08",
+              "featureTitle": "Zuverlässige Daten durch unsere AI-Sensor-Fusion - Der Algorithmus kombiniert die Daten von Beschleunigungsmessern, Gyroskopen und einem Drucksensor."
+            }
+          ],
+          "titleSecondary": "Sensor-Fusion Technologie",
+          "descSecondary": "Trackbar ist fest entschlossen eine herausragende Leistung zu liefern. Darum verwenden wir die neuesten Technologien.",
+          "buttonDesc": "Jetzt Kaufen"
+        },
+        "gym": {
+          "overline": "Für Fitnessstudios",
+          "title": "Wir machen jedes Eisen im Studio smart.",
+          "desc": "Unser Ziel ist es dein Trainingserlebnis und die Fitnessstudioindustrie zu verbessern. Sei du das Fitnessstudio das heraussticht!"
+        },
+        "price": {
+          "title": "Hol dir deine Trackbar.",
+          "desc": "Es war niemals einfacher clever zu trainieren. Mach die Trackbar zu deinem Partner und überwache jede Wiederholung die du performst. Teile deine Daten mit deinem Coach um deine perfekten Trainingspläne zu erhalten.",
+          "priceTag": "€229",
+          "desc2": "<b> Hol dir deinen Vorverkaufsrabatt von 25% mit deinem Code: <br> Early-Bird-Special</b>",
+          "priceAnnotation": "(begrenztes Angebot)"
+        },
+        "blog": {
+          "title": "Neuigkeiten & Updates",
+          "carousel": [
+            { "title": "Neu im Sommer", "id": "01" },
+            {
+              "title": "Warum mit olympischen Gewichten trainieren",
+              "id": "02"
+            },
+            { "title": "Nutze deine Trackbar optimal", "id": "03" }
+          ]
+        },
+        "faq": {
+          "title": "Häufig gestellte Fragen",
+          "questions": [
+            {
+              "question": "Was ist die Trackbar und was macht sie?",
+              "answer": "Die Trackbar ist ein Sensor, der an Trainingsequipment befestigt wird. Das Messen von Parametern wie Geschwindigkeit und Bewegungsumfang bietet dem Trainer und dem Athleten den Überblick über Trainings und Fortschritte. Zusätzlich enthält die Trackbar ein Kommunikationstool um die Beziehung zwischen Trainer und Coach auf ein neues Level zu bringen. (Kommt diesen Sommer). Für beide Parteien ist die Trackbar der Weg das Workout zu digitalisieren."
+            },
+            {
+              "question": "Welche Parameter werden gemessen und wie genau funktioniert die Trackbar?",
+              "answer": "Wir messen zum u.a. den Bewegungsumfang, die Geschwindigkeit und die exzentrischen und konzentrischen Bewegungszeiten. Zusätzlich zu den internalen Messeinheiten fusionieren wir die Daten mit den neuesten Drucksensoren, was unsere Messungen noch genauer macht."
+            },
+            {
+              "question": "Was unterscheidet die Trackbar von anderen Trackern?",
+              "answer": "Die Trackbar bietet sowohl Fitnessstudios und Coaches, als auch Athleten die Möglichkeit ihre Fortschritte einfach zu überwachen. Der Trackbar Sensor ist nicht nur für den professionellen Sport gebaut, sondern bietet eine Lösung für alle: von Fitnessstudioneuling über Physiotherapeuten, zu Athleten. Mit Hilfe der neuesten Technologie helfen wir jedem mit den Daten die er oder sie benötigt."
+            },
+            {
+              "question": "Können die Daten der Trackbar in andere Apps integriert werden? ",
+              "answer": "Es ist unser klares Ziel unsere Software in so viele existierende Lösungen wie möglich zu integrieren. Sollte der Fall eintreten, dass du eine Software benutzt die wir nicht unterstützen dann lass uns das gerne wissen. Zusätzlich dazu gibt es eine App Version von uns."
+            },
+            {
+              "question": "In welchem Stadium befindet sich die Entwicklung der Trackbar und wann wird sie auf dem Markt erhältlich sein?",
+              "answer": "Ab dem 8. Februar wir die Trackbar für den Vorverkauf erhältlich sein. Verschickt werden sie Anfang März.  PS: Hol dir unseren Newsletter, dann verpasst du unsere Angebote nicht. "
+            }
+          ]
+        },
+        "newsletter": {
+          "title": "ABONNIERE DEN NEWSLETTER",
+          "button": "Senden",
+          "error": "Entschuldige, das Senden des Formulars hat leider nicht geklappt",
+          "success": "Deine Nachricht wurde erfolgreich versendet"
+        },
+        "contact": {
+          "title": "Kontaktiere uns",
+          "button": "Senden",
+          "error": "Entschuldige, das Senden des Formulars hat leider nicht geklappt",
+          "success": "Deine Nachricht wurde erfolgreich versendet"
+        }
+      }
+    },
+
+    {
+      "_comment": "************************************************************************************************************additional languages can be modified from here",
+
+      "espanol": {}
+    }
+  ]
+}
