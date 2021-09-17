@@ -197,7 +197,7 @@
       "deutsch": {
         "hero": {
           "title": "Der clevere Trainingspartner ",
-          "desc": "Du kannst die Trackbar auf jedem Eisen anbrigen, egal ob Zuhause oder im Gym um deine Zeit, Bewegung und Geschwindigkeit zu messen. Verbessere deine Trainingserfahrung mit der Trackbar.",
+          "desc": "Bring die Trackbar auf jedem Eisen an welches du bewegst. Ob Zuhause oder im Gym um messe deine Performance. Verbessere deine Trainingserfahrung mit der Trackbar.",
           "btn": "Jetzt Kaufen"
         },
 
@@ -236,7 +236,7 @@
           },
           {
             "id": "03",
-            "quote": "Die Trackbar macht es möglich, meinen Kunden ein detailliertes Feedback zu ihren Trainings zugeben, auch wenn, ich nicht direkt bei ihnen sein kann.",
+            "quote": "Die Trackbar macht es möglich, meinen Kunden ein detailliertes Feedback zu ihren Trainings zugeben. Auch, wenn ich nicht direkt bei ihnen sein kann.",
             "coach": "<b>Riannon Clarke</b> - Wien, Österreich"
           }
         ],
@@ -247,19 +247,19 @@
               "productID": "01",
               "page": "01/05",
               "productTitle": "Digitalisiere dein Training.",
-              "prodcutDesc": "Es ist Zeit Stift und Papier im Fitnessstudio zur Seite zu legen. Mit der Trackbar kreierst du Workouts, trackst diese und analysierst deine Performancedaten."
+              "prodcutDesc": "Es ist Zeit Stift und Papier zur Seite zu legen. Mit der Trackbar kreierst du Workouts, trackst diese und analysierst deine Performance."
             },
             {
               "productID": "02",
               "page": "02/05",
               "productTitle": "Finde dein tägliches Workout",
-              "prodcutDesc": "Öffne einen Trainingsplan, kreieren einen Neuen oder starte eines unserer kostenlosen Trainings"
+              "prodcutDesc": "Öffne deinen Trainingsplan, kreieren einen Neuen oder starte eines unserer kostenlosen Trainings"
             },
             {
               "productID": "03",
               "page": "03/05",
               "productTitle": "STARTE <br />TRAINING",
-              "prodcutDesc": "Wir machen die Arbeit, während du dein Training absolvierst. Trackbar leitet dich nicht nur durch deinen Trainingsroutine, sonder achtet auch auf jede Wiederholung die du machst."
+              "prodcutDesc": "Wir machen die Arbeit, während du dein Training absolvierst. Trackbar leitet dich nicht nur durch deine Trainingsroutine, sonder achtet auf jede Wiederholung die du machst."
             },
             {
               "productID": "04",
@@ -271,7 +271,7 @@
               "productID": "05",
               "page": "05/05",
               "productTitle": "Bleibe in Kontakt mit deinem Coach",
-              "prodcutDesc": "Verbinde dich direkt über die TrackbarApp, besprich deine Statistiken, teile deine Trainingsveränderugnen oder bleibe auf dem neuesten Stand."
+              "prodcutDesc": "Verbinde dich direkt über die Trackbar App. Besprich deine Statistiken, teile deine Trainingsveränderugnen und sei immer auf dem neuesten Stand."
             }
           ]
         },
@@ -279,7 +279,7 @@
         "platform": {
           "title": "Tritt der digitalen Trackbar Trainingsplattform bei",
           "overline": "Digitale Trackbar Trainingsplattform",
-          "desc": "Mehrmals wöchentliche Trainingspläne, ergänzt durch Live-Workouts, aufbauend auf einem, immer wechselnden Equipment. Passend für alle. Das ist die digitale Trackbar Gymplattform.",
+          "desc": "Mehrmals wöchentlich Trainingspläne, ergänzt durch Live-Workouts, aufbauend auf einem, immer wechselnden Equipment. Passend für alle. Das ist die digitale Trackbar Gymplattform.",
           "buttonDesc": "in Kürze"
         },
         "feature": {
@@ -289,26 +289,26 @@
             {
               "featureID": "01",
               "featureTitle": "Workout Verlauf",
-              "featureDesc": "Mit einem Fingerklick scrollst du durch alle Workouts , die du gemacht hast."
+              "featureDesc": "Mit einem Fingerklick scrollst du durch alle Workouts die du gemacht hast."
             },
             {
               "featureID": "02",
               "featureTitle": "Fortschritte tracken",
-              "featureDesc": "Automatische updates der Statistik nach jedem Training helfen dir auf dem Laufenden zu bleiben."
+              "featureDesc": "Automatische Updates der Statistik nach jedem Training helfen dir auf dem Laufenden zu bleiben."
             },
             {
               "featureID": "03",
               "featureTitle": "Optimiere Trainingspläne ",
-              "featureDesc": "Kreiere maßgeschneiderte Trainingsroutinen für deine Klienten abgestimmt auf deren individulen Daten und Statistike."
+              "featureDesc": "Kreiere maßgeschneiderte Trainingsroutinen für deine Klienten, basierend auf deren Daten und Statistiken."
             },
             {
               "featureID": "04",
               "featureTitle": "Direkte Kommunikation",
-              "featureDesc": "Egal wann und wo du bist, gib deinen Klienten Feedback und manage eure Zeit leichter. (Kommt diesen Sommer)"
+              "featureDesc": "Egal wann und wo du bist, gib deinen Klienten Feedback und manage deine Zeit flexibler. (Kommt diesen Sommer)"
             },
             {
               "featureID": "05",
-              "featureTitle": "Kompakt, lange haltbar, leichtes Gewicht und 8 Stunden Baterielaufzeit."
+              "featureTitle": "Kompakt, lange haltbar, leicht und 8 Stunden Batterielaufzeit."
             },
             {
               "featureID": "06",
@@ -320,34 +320,34 @@
             },
             {
               "featureID": "08",
-              "featureTitle": "Zuverlässige Daten durch unseren AI - Sensor - Fusion - Der Algorithmus kombiniert die Daten von Beschleunigungsmessern, Gyroskopen und einem Drucksensor."
+              "featureTitle": "Zuverlässige Daten durch unsere AI-Sensor-Fusion - Der Algorithmus kombiniert die Daten von Beschleunigungsmessern, Gyroskopen und einem Drucksensor."
             }
           ],
           "titleSecondary": "Sensor-Fusion Technologie",
-          "descSecondary": "Trackbar ist fest entschlossen eine herausragende Leistung zu liefer. Darum verwenden wir die neuesten Technologien.",
+          "descSecondary": "Trackbar ist fest entschlossen eine herausragende Leistung zu liefern. Darum verwenden wir die neuesten Technologien.",
           "buttonDesc": "Jetzt Kaufen"
         },
         "gym": {
           "overline": "Für Fitnessstudios",
-          "title": "Wir machen jedes Eisen im Gym smart.",
-          "desc": "Unser Ziel ist es dein Trainingserlebnis und die Fitnessstudioindustrie, mit dem Gedanken an die Zukunft, zu verbessern. Bist du bereit das Fitnesstudio zu sein, das heraussticht?"
+          "title": "Wir machen jedes Eisen im Studio smart.",
+          "desc": "Unser Ziel ist es dein Trainingserlebnis und die Fitnessstudioindustrie zu verbessern. Sei du das Fitnessstudio das heraussticht!"
         },
         "price": {
           "title": "Hol dir deine Trackbar.",
           "desc": "Es war niemals einfacher clever zu trainieren. Mach die Trackbar zu deinem Partner und überwache jede Wiederholung die du performst. Teile deine Daten mit deinem Coach um deine perfekten Trainingspläne zu erhalten.",
           "priceTag": "€229",
-          "desc2": "<b> Hol dir deinen Vorverkaufsangebot von 25% mit deinem Code: <br> Early-Bird-Spezial</b>",
-          "priceAnnotation": "(begrenztest Angebot)"
+          "desc2": "<b> Hol dir deinen Vorverkaufsrabatt von 25% mit deinem Code: <br> Early-Bird-Special</b>",
+          "priceAnnotation": "(begrenztes Angebot)"
         },
         "blog": {
           "title": "Neuigkeiten & Updates",
           "carousel": [
-            { "title": "Freigabe im Sommer", "id": "01" },
+            { "title": "Neu im Sommer", "id": "01" },
             {
               "title": "Warum mit olympischen Gewichten trainieren",
               "id": "02"
             },
-            { "title": "Komplementiere deine Trackbar mit", "id": "03" }
+            { "title": "Nutze deine Trackbar optimal", "id": "03" }
           ]
         },
         "faq": {
@@ -359,15 +359,15 @@
             },
             {
               "question": "Welche Parameter werden gemessen und wie genau funktioniert die Trackbar?",
-              "answer": "Wir messen zum Beispiel den Bewegungsumfang, die Geschwindigkeit und die exzentrischen und konzentrischen Bewegungszeiten. Zusätzlich zu den internalen Messeinheiten sichern wir die daten mit den neuesten Drucksensoren, was unsere Messungen noch genauer macht."
+              "answer": "Wir messen zum u.a. den Bewegungsumfang, die Geschwindigkeit und die exzentrischen und konzentrischen Bewegungszeiten. Zusätzlich zu den internalen Messeinheiten fusionieren wir die Daten mit den neuesten Drucksensoren, was unsere Messungen noch genauer macht."
             },
             {
               "question": "Was unterscheidet die Trackbar von anderen Trackern?",
-              "answer": "Die Trackbar bietet sowohl Fitnessstudios und Coaches, als auch Athleten die Möglichkeit ihre Fortschritte einfach zu überwachen. Der Trackbarsensor ist nicht nur für den professionellen Sport gebaut, sondern bietet eine Lösung für alle, von Fitnessstudioneuling über Physiotherapeuten, zu Athleten. Mit Hilfe der neuesten Technologie helfen wir jedem mit den Daten die er oder sie benötigt."
+              "answer": "Die Trackbar bietet sowohl Fitnessstudios und Coaches, als auch Athleten die Möglichkeit ihre Fortschritte einfach zu überwachen. Der Trackbar Sensor ist nicht nur für den professionellen Sport gebaut, sondern bietet eine Lösung für alle: von Fitnessstudioneuling über Physiotherapeuten, zu Athleten. Mit Hilfe der neuesten Technologie helfen wir jedem mit den Daten die er oder sie benötigt."
             },
             {
               "question": "Können die Daten der Trackbar in andere Apps integriert werden? ",
-              "answer": "Es ist unser klares Ziel unsere Software in so viele existierende Lösungen wie möglich zu integrieren. Sollte der fall eintreten, dass du eine Software benutzt, die wir nicht unterstützen, dann lass uns das gerne wisse.Zusätzlich dazu gibt es eine Version, die ohne Integration in andere Apps, für mobile Geräte downloadbar ist."
+              "answer": "Es ist unser klares Ziel unsere Software in so viele existierende Lösungen wie möglich zu integrieren. Sollte der Fall eintreten, dass du eine Software benutzt die wir nicht unterstützen dann lass uns das gerne wissen. Zusätzlich dazu gibt es eine App Version von uns."
             },
             {
               "question": "In welchem Stadium befindet sich die Entwicklung der Trackbar und wann wird sie auf dem Markt erhältlich sein?",
