@@ -159,7 +159,7 @@
           "questions": [
             {
               "question": "What is Trackbar and what is it supposed to do?",
-              "answer": "Trackbar is a sensor that is attached to weight lifting equipment. Measuring critical parameters like speed and range of motion it provides the coach and the athlete with insights about the workout and the progress. Further, it offers communication tools to intensify the relationship between athlete and coach (coming this summer). For both parties trackbar offers the possibility to digitize the workout."
+              "answer": "Trackbar is a sensor that is attached to weight lifting equipment. Measuring critical parameters like speed and range of motion it provides the coach and the athlete with insights about the workout and the progress."
             },
             {
               "question": "Which parameter will be measurable and how exactly does Trackbar work?",
@@ -172,10 +172,6 @@
             {
               "question": "Can the Trackbar data be integrated into other apps?",
               "answer": "It is our clear target to integrate our software into as many existing solutions as possible. In case we do not provide an integration to the software you are using let us know. In addition to our integrations, we also provide a stand-alone version that can be downloaded for mobile devices."
-            },
-            {
-              "question": "What is the state of development of the Trackbar and when will be available on the market?",
-              "answer": "From 8.February on trackbar will be available for pre-order. Shipping will start at the beginning of March. PS: Sign up to our Newsletter to not miss any deals when we are launching."
             }
           ]
         },
@@ -355,7 +351,7 @@
           "questions": [
             {
               "question": "Was ist die Trackbar und was macht sie?",
-              "answer": "Die Trackbar ist ein Sensor, der an Trainingsequipment befestigt wird. Das Messen von Parametern wie Geschwindigkeit und Bewegungsumfang bietet dem Trainer und dem Athleten den Überblick über Trainings und Fortschritte. Zusätzlich enthält die Trackbar ein Kommunikationstool um die Beziehung zwischen Trainer und Coach auf ein neues Level zu bringen. (Kommt diesen Sommer). Für beide Parteien ist die Trackbar der Weg das Workout zu digitalisieren."
+              "answer": "Die Trackbar ist ein Sensor, der an Trainingsequipment befestigt wird. Das Messen von Parametern wie Geschwindigkeit und Bewegungsumfang bietet dem Trainer und dem Athleten den Überblick über Trainings und Fortschritte."
             },
             {
               "question": "Welche Parameter werden gemessen und wie genau funktioniert die Trackbar?",
@@ -368,10 +364,6 @@
             {
               "question": "Können die Daten der Trackbar in andere Apps integriert werden? ",
               "answer": "Es ist unser klares Ziel unsere Software in so viele existierende Lösungen wie möglich zu integrieren. Sollte der Fall eintreten, dass du eine Software benutzt die wir nicht unterstützen dann lass uns das gerne wissen. Zusätzlich dazu gibt es eine App Version von uns."
-            },
-            {
-              "question": "In welchem Stadium befindet sich die Entwicklung der Trackbar und wann wird sie auf dem Markt erhältlich sein?",
-              "answer": "Ab dem 8. Februar wir die Trackbar für den Vorverkauf erhältlich sein. Verschickt werden sie Anfang März.  PS: Hol dir unseren Newsletter, dann verpasst du unsere Angebote nicht. "
             }
           ]
         },
