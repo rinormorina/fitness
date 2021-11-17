@@ -59,7 +59,7 @@ function readTextFile(file, callback) {
   rawFile.send(null);
 }
 
-readTextFile("/content/languages.json", function (text) {
+readTextFile("./content/languages.json", function (text) {
   let data = JSON.parse(text);
   let domData;
   //choose data for DOM according to set browser lang
