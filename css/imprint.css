@@ -7,6 +7,7 @@
 .contact-newsletter{
     height: 80vh;
 }
-body{
-    height: 100vh;
+
+.widget-full{
+    padding: 5rem 10rem;
 }
