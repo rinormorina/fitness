@@ -56,17 +56,17 @@ function readTextFile(file, callback) {
       callback(rawFile.responseText);
     }
   };
- rawFile.send(null)
+  rawFile.send(null);
 }
 
-readTextFile("./content/languages.json", function (text) {
+readTextFile("../content/languages.json", function (text) {
   let data = JSON.parse(text);
   let domData;
   //choose data for DOM according to set browser lang
-  userLang == undefined || userLang == "de" //beginsWith()
+  userLang == "de-DE" || userLang == "de" //beginsWith()
     ? (domData = data.languages[1].deutsch)
     : (domData = data.languages[0].english);
-  console.log(userLang);
+  console.log(domData);
   /**
    *
    * call functions to build DOM
@@ -189,8 +189,8 @@ function add_testimonials(domData) {
       i.quote +
       '</div><div class="testimonials-person">' +
       i.coach +
-      '</div></div><div class="testimonials-image"><img src="images/testimonials-img-01' +
-     
+      '</div></div><div class="testimonials-image"><img src="images/testimonials-img-' +
+      i.id +
       '.png" alt="" /></div></article></div>';
   });
   testimonials.innerHTML = testimonialText;

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <script
+    <script
       id="Cookiebot"
       src="https://consent.cookiebot.com/uc.js"
       data-cbid="b2e9ab25-6774-41c5-b166-6cdb20d3efb5"
       data-blockingmode="auto"
       type="text/javascript"
-    ></script> -->
-
-    <script>(function(){function n(n,t){t=t||{bubbles:!1,cancelable:!1,detail:null};var i=document.createEvent("CustomEvent");return i.initCustomEvent(n,t.bubbles,t.cancelable,t.detail),i}if(typeof window.CustomEvent=="function")return!1;window.CustomEvent=n})(),function(){function t(){}function n(){}var u="CookieConsentBulkSetting-",r="sessionStorageUpdated",i,f;this.handleRequest=function(i){function c(n){i.source.postMessage(n,i.origin)}var r,o,f,s,h,e;try{if(r=i.data,o=typeof r=="string",o&&(r=JSON.parse(r)),f=u+r.serial,r.action==="get"){s=t.getData(f);n.getData(f,function(n){var t=s||n;t?c(t):c("bcEmpty")});return}h=r.value.expireMonths===0;e=t;h&&(e=n);switch(r.action){case"set":e.setData(f,r.value);break;case"remove":e.removeData(f)}}catch(l){}};t.getData=function(n,t){var i=JSON.parse(localStorage.getItem(n));return t&&t(i),i};t.setData=function(n,t){localStorage.setItem(n,JSON.stringify(t))};t.removeData=function(n){localStorage.removeItem(n)};i=undefined;f=300;n.getData=function(t,u){var e=sessionStorage.getItem(t);e?u(JSON.parse(e)):(window.addEventListener(r,function(){typeof i=="number"&&window.clearTimeout(i);i=undefined;e=JSON.parse(sessionStorage.getItem(t));u(e)}),n.pulseLocalStorage("req",t),i=window.setTimeout(function(){window.dispatchEvent(new CustomEvent(r,{detail:{answerReceived:!1}}))},f))};n.setData=function(t,i){var u=typeof i=="string",r;r=u?i:JSON.stringify(i);sessionStorage.setItem(t,r);n.pulseLocalStorage("msg",r)};n.removeData=function(n){sessionStorage.removeItem(n)};n.pulseLocalStorage=function(n,t){localStorage.setItem(n,t);localStorage.removeItem(n)};n.msgCallBack=function(t){var i,f;switch(t.key){case"req":i=t.newValue;sessionStorage.getItem(i)&&n.pulseLocalStorage("msg",sessionStorage.getItem(i));break;case"msg":t.newValue!==null&&(f=JSON.parse(t.newValue),i=u+f.serial,t.newValue!==sessionStorage.getItem(i)&&n.setData(i,t.newValue),window.dispatchEvent(new CustomEvent(r,{detail:{answerReceived:!0}})))}};window.addEventListener("message",this.handleRequest,!1);window.addEventListener("storage",n.msgCallBack,!1)}()</script>
+    ></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -86,9 +84,10 @@
     <!-- Start of HubSpot Embed Code -->
     <script
       type="text/javascript"
-      
-      
-      src="js/hs-scripts.js"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/6643376.js"
     ></script>
     <!-- End of HubSpot Embed Code -->
 
@@ -271,10 +270,7 @@
         <div
           class="owl-carousel owl-theme product-carousel"
           id="products_carousel"
-        >
-      <img src="./images/testimonials-img-01.png">
-      <img src="./images/testimonials-img-02.png">
-      </div>
+        ></div>
       </div>
     </section>
     <!-- [end] product -->
@@ -605,7 +601,7 @@
     </section>
     <!-- [end] news -->
 
-    <!-- [start] download  -->
+    <!-- [start] download 
     <section class="widget-full download-wrapper" id="download">
         <div class="container container-standard">
             <div class="download-col">
@@ -626,7 +622,7 @@
             </div>
         </div>
     </section>
-    <!-- [end] download -->
+    [end] download -->
 
     <!-- [start] faqs -->
     <section class="widget-full faqs-wrapper" id="faqs">
@@ -769,8 +765,8 @@
 
       <div class="contact-legals">
         Copyright 2021 /
-        <a href="datenschutz.html">Privacy Policy</a> /
-        <a href="imprint.html" >Imprint</a>
+        <a href="datenschutz.html" target="_blank">Privacy Policy</a> /
+        <a href="imprint.html" target="_blank">Imprint</a>
       </div>
     </section>
     <!-- [end] contact -->
