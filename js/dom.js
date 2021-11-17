@@ -195,15 +195,15 @@ function add_testimonials(domData) {
   testimonials.innerHTML = testimonialText;
 }
 
-function add_blogs(domData) {
-  let blogText = "";
-  domData.blog.carousel.forEach(function (i, k) {
-    blogText +=
-      '<div class="item"><a href="https://trackbar.com/trackbar-blog/" target="_blank"><article class="news-item"><div class="news-image"><img src="images/news-image-' +
-      i.id +
-      '.png" alt="" /></div><div class="news-title">' +
-      i.title +
-      "</div></article></a></div>";
-  });
-  blogEntries.innerHTML = blogText;
-}
+// function add_blogs(domData) {
+//   let blogText = "";
+//   domData.blog.carousel.forEach(function (i, k) {
+//     blogText +=
+//       '<div class="item"><a href="https://trackbar.com/trackbar-blog/" target="_blank"><article class="news-item"><div class="news-image"><img src="images/news-image-' +
+//       i.id +
+//       '.png" alt="" /></div><div class="news-title">' +
+//       i.title +
+//       "</div></article></a></div>";
+//   });
+//   blogEntries.innerHTML = blogText;
+// }
