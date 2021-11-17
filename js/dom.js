@@ -76,7 +76,7 @@ readTextFile("./content/languages.json", function (text) {
   add_product_info(domData);
   add_faqs(domData);
   add_testimonials(domData);
-  add_blogs(domData);
+  //add_blogs(domData);
   add_features(domData);
 });
 
