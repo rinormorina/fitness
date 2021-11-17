@@ -143,8 +143,8 @@
           "title": "Get Your Trackbar",
           "desc": "Working out smart has never been easier. Make Trackbar your workout partner and monitor every repetition you perform. Share your data with your coach to receive perfect workout plans every single time.",
           "priceTag": "€229",
-          "desc2": "  ",
-          "priceAnnotation": "  "
+          "desc2": "<b> Get your Pre-Order Discount of 25% with your Coupon-Code: <br> Early-Bird-Special</b>",
+          "priceAnnotation": "(limited offer only)"
         },
         "blog": {
           "title": "NEWS & UPDATES",
@@ -169,10 +169,10 @@
               "question": " What makes Trackbar different from other trackers",
               "answer": "Trackbar offers gyms, coaches and athletes to monitor their progress easily. The Trackbar sensor is not only built for professional sports, it is designed to provide a solution for everyone from the gym newbie over physiotherapists to pro athletes. With the help of the latest technology we serve everyone with the data they need for their workout."
             },
-            {
-              "question": "Can the Trackbar data be integrated into other apps?",
-              "answer": "It is our clear target to integrate our software into as many existing solutions as possible. In case we do not provide an integration to the software you are using let us know. In addition to our integrations, we also provide a stand-alone version that can be downloaded for mobile devices."
-            }
+                        {
+                          "question": "What is the state of development of the Trackbar and when will be available on the market?",
+                          "answer": "From 8.February on trackbar will be available for pre-order. Shipping will start at the beginning of March. PS: Sign up to our Newsletter to not miss any deals when we are launching."
+               }
           ]
         },
         "newsletter": {
@@ -332,8 +332,8 @@
           "title": "Hol dir deine Trackbar.",
           "desc": "Es war niemals einfacher clever zu trainieren. Mach die Trackbar zu deinem Partner und überwache jede Wiederholung die du performst. Teile deine Daten mit deinem Coach um deine perfekten Trainingspläne zu erhalten.",
           "priceTag": "€229",
-          "desc2": "  ",
-          "priceAnnotation": "  "
+          "desc2": "<b> Hol dir deinen Vorverkaufsrabatt von 25% mit deinem Code: <br> Early-Bird-Special</b>",
+          "priceAnnotation": "(begrenztes Angebot)"
         },
         "blog": {
           "title": "Neuigkeiten & Updates",

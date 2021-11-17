@@ -1,0 +1,12 @@
+.contact-legals{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+}
+
+.contact-newsletter{
+    height: 80vh;
+}
+body{
+    height: 100vh;
+}

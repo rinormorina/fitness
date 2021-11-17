@@ -1139,6 +1139,11 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.widget-full .contact-wrapper{
+  position: absolute;
+  bottom: 200x;
+  display: none;
+  }
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
