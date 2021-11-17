@@ -76,7 +76,6 @@ readTextFile("./content/languages.json", function (text) {
   add_product_info(domData);
   add_faqs(domData);
   add_testimonials(domData);
-  //add_blogs(domData);
   add_features(domData);
 });
 
@@ -195,15 +194,4 @@ function add_testimonials(domData) {
   testimonials.innerHTML = testimonialText;
 }
 
-// function add_blogs(domData) {
-//   let blogText = "";
-//   domData.blog.carousel.forEach(function (i, k) {
-//     blogText +=
-//       '<div class="item"><a href="https://trackbar.com/trackbar-blog/" target="_blank"><article class="news-item"><div class="news-image"><img src="images/news-image-' +
-//       i.id +
-//       '.png" alt="" /></div><div class="news-title">' +
-//       i.title +
-//       "</div></article></a></div>";
-//   });
-//   blogEntries.innerHTML = blogText;
-// }
+
