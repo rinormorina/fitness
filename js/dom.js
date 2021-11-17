@@ -66,7 +66,6 @@ readTextFile("./content/languages.json", function (text) {
   userLang == "de-DE" || userLang == "de" //beginsWith()
     ? (domData = data.languages[1].deutsch)
     : (domData = data.languages[0].english);
-  console.log(domData);
   /**
    *
    * call functions to build DOM
