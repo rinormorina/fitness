@@ -9,3 +9,8 @@ strong{
 .widget-full{
     padding: 12rem 7rem 7rem 7rem;
 }
+
+.container-standard{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    line-height: 26.4px;
+}
