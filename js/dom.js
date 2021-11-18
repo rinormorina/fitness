@@ -45,7 +45,7 @@ var send_btn1 = document.querySelector(".send_btn1");
 const a  = document.getElementById("CybotCookiebotDialogBody");
 if(a){
 a.addEventListener(onclick, function(e){e.preventDefault()})
-}else{alert("dknfj")}
+}
 //set browser language
 let userLang = navigator.language || navigator.userLanguage;
 
