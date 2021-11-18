@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+}
+
+
 .CookieDeclaration{
     height: 5vh;
     overflow-y: auto;
@@ -13,4 +18,13 @@ strong{
 .container-standard{
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     line-height: 26.4px;
+    background-color: #00082b;
+    color: white;
+}
+
+.title-main{
+    color: white;
+}
+.contact-newsletter{
+    background-color: #00082b !important;
 }
