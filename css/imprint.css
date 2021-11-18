@@ -1,12 +1,10 @@
 .contact-legals{
     display: flex;
-    height: 20vh;
     justify-content: center;
+    margin-top: 30vh;
 }
 
-.contact-newsletter{
-    height: 80vh;
-}
+
 
 .widget-full{
     padding: 12rem 7rem 7rem 7rem;
