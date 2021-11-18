@@ -126,3 +126,7 @@
 #mc_embed_signup .button:hover{
     background-color:#00cc9b;
 }
+
+#CybotCookiebotDialogBody{
+    display: none !important;
+}
