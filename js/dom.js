@@ -42,6 +42,8 @@ var send_btn1 = document.querySelector(".send_btn1");
 //success
 //send_btn
 //contact_title
+const a  = document.getElementById("CybotCookiebotDialogBody");
+a.addEventListener(onclick, function(e){e.preventDefault()})
 
 //set browser language
 let userLang = navigator.language || navigator.userLanguage;
