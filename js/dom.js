@@ -4,7 +4,7 @@ var hero_desc = document.querySelector("#hero_desc");
 var hero_btn = document.querySelector("#hero_btn");
 var testimonials = document.querySelector("#testimonial_carousel");
 var navigation_items = document.querySelector("#navigation_items");
-var products = document.querySelector("#products_carousel");
+var products = document.querySelector("#products_carousel");                        
 var product_title = document.querySelector("#product_title");
 // var platform_title = document.querySelector("#platform_title");
 // var platform_overline = document.querySelector("#platform_overline");
@@ -141,7 +141,7 @@ function add_features(domData) {
       feature[k].featureID +
       '.svg" alt="" /></div><div class="features-item-copy"><div class="features-item-title">' +
       feature[k].featureTitle +
-      "</div></div></div>";
+      "</div></div></div>"; 
   }
   featureText +=
     '<a href="#price" class="button-main anchor-link" id="features_btn">' +
