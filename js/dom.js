@@ -192,7 +192,7 @@ function add_testimonials(domData) {
       i.coach +
       '</div></div><div class="testimonials-image"><img src="images/testimonials-img-' +
       i.id +
-      '.png" alt="" /></div></article></div>';
+      '.jpg" alt="" /></div></article></div>';
   });
   testimonials.innerHTML = testimonialText;
 }
