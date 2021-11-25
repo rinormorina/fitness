@@ -118,7 +118,7 @@ function add_features(domData) {
   let feature = domData.feature.featureList1;
   for (let k = 0; k < 4; k++) {
     featureText +=
-      '<div class="features-item-description"><div class="features-item-icon"><img src="images/icon/icon-feature-' +
+      '<div class="features-item-description"><div class="features-item-icon"><img loading="lazy" src="images/icon/icon-feature-' +
       feature[k].featureID +
       '.svg" alt="" /></div><div class="features-item-copy"><div class="features-item-title">' +
       feature[k].featureTitle +
@@ -137,7 +137,7 @@ function add_features(domData) {
     "</div>";
   for (let k = 4; k < 8; k++) {
     featureText +=
-      '<div class="features-item-description feature-xl"><div class="features-item-icon"><img src="images/icon/icon-feature-' +
+      '<div class="features-item-description feature-xl"><div class="features-item-icon"><img loading="lazy" src="images/icon/icon-feature-' +
       feature[k].featureID +
       '.svg" alt="" /></div><div class="features-item-copy"><div class="features-item-title">' +
       feature[k].featureTitle +
@@ -156,7 +156,7 @@ function add_product_info(domData) {
     productElements +=
       '<div class="item"><article class="product-item"><div class="product-image-wrapper"><div class="product-page">' +
       i.page +
-      '</div><div class="product-image"><img src="images/product-image-' +
+      '</div><div class="product-image"><img loading="lazy" src="images/product-image-' +
       i.productID +
       '.png" alt="" /></div></div><div class="product-copy"><div class="product-copy-number">' +
       i.productID +
@@ -175,7 +175,7 @@ function add_faqs(domData) {
     faqElements +=
       '<div class="faqs-row"><div class="faqs-title">' +
       i.question +
-      '<div class="faqs-icon"><img src="images/icon/icon-arrow-down.svg" alt="" /></div></div><div class="faqs-paragraph">' +
+      '<div class="faqs-icon"><img loading="lazy" src="images/icon/icon-arrow-down.svg" alt="" /></div></div><div class="faqs-paragraph">' +
       i.answer +
       "</div> </div>";
   });
@@ -190,7 +190,7 @@ function add_testimonials(domData) {
       i.quote +
       '</div><div class="testimonials-person">' +
       i.coach +
-      '</div></div><div class="testimonials-image"><img src="images/testimonials-img-' +
+      '</div></div><div class="testimonials-image"><img loading="lazy" src="images/testimonials-img-' +
       i.id +
       '.jpg" alt="" /></div></article></div>';
   });
