@@ -565,9 +565,9 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background: #171a37;
-  background: -webkit-gradient(linear, left top, right top, color-stop(33%, #171a37), color-stop(66%, rgba(23, 26, 55, 0)));
-  background: linear-gradient(90deg, #171a37 33%, rgba(23, 26, 55, 0) 66%);
+  /* background: #171a37; */
+  /* background: -webkit-gradient(linear, left top, right top, color-stop(33%, #171a37), color-stop(66%, rgba(23, 26, 55, 0))); */
+  /* background: linear-gradient(90deg, #171a37 33%, rgba(23, 26, 55, 0) 66%); */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171a37",endColorstr="#171a37",GradientType=1);
 }
 
