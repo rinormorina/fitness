@@ -7,3 +7,46 @@ body{
     margin-right: auto;
     background-color: white;
 }
+
+#contact{background-size: 100vw auto;}
+
+.video-sec{
+    background-image: url("/images/back.png");
+    background-size: cover;
+    padding: 50px;
+}
+#hero_btn{
+    background:none;
+    background-color: white;
+}
+#features{
+background-image: url('/images/sec-5.svg');
+background-size: 100vw auto;
+height: 100vh;
+}
+
+body > section.widget-full.contact-wrapper > div.contact-newsletter > div > div > form > button{
+    background: white;
+    color: black;
+}
+#reused_form > button{
+    background: white;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
