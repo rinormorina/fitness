@@ -4,7 +4,7 @@ var hero_desc = document.querySelector("#hero_desc");
 var hero_btn = document.querySelector("#hero_btn");
 var testimonials = document.querySelector("#testimonial_carousel");
 var navigation_items = document.querySelector("#navigation_items");
-var products = document.querySelector("#products_carousel");                        
+var products = document.querySelector("#products_carousel");
 var product_title = document.querySelector("#product_title");
 // var platform_title = document.querySelector("#platform_title");
 // var platform_overline = document.querySelector("#platform_overline");
@@ -42,9 +42,11 @@ var send_btn1 = document.querySelector(".send_btn1");
 //success
 //send_btn
 //contact_title
-const a  = document.getElementById("CybotCookiebotDialogBody");
-if(a){
-a.addEventListener(onclick, function(e){e.preventDefault()})
+const a = document.getElementById("CybotCookiebotDialogBody");
+if (a) {
+  a.addEventListener(onclick, function (e) {
+    e.preventDefault();
+  });
 }
 //set browser language
 let userLang = navigator.language || navigator.userLanguage;
@@ -78,7 +80,7 @@ readTextFile("./content/languages.json", function (text) {
   add_static_info(domData);
   add_product_info(domData);
   add_faqs(domData);
-  add_testimonials(domData);
+  // add_testimonials(domData);
   add_features(domData);
 });
 
@@ -141,7 +143,7 @@ function add_features(domData) {
       feature[k].featureID +
       '.svg" alt="" /></div><div class="features-item-copy"><div class="features-item-title">' +
       feature[k].featureTitle +
-      "</div></div></div>"; 
+      "</div></div></div>";
   }
   featureText +=
     '<a href="#price" class="button-main anchor-link" id="features_btn">' +
@@ -182,19 +184,19 @@ function add_faqs(domData) {
   faq_content.innerHTML = faqElements;
 }
 
-function add_testimonials(domData) {
+function add_testimonials() {
   let testimonialText = "";
-  domData.testimonials.forEach(function (i, k) {
+  let quote = ["a", "b", "c", "d"];
+  for (let i = 0; i < 4; i++) {
     testimonialText +=
       '<div class="item"><article class="testimonials-item"><div class="testimonials-copy"><div class="testimonials-quote">' +
-      i.quote +
+      quote[i] +
       '</div><div class="testimonials-person">' +
-      i.coach +
-      '</div></div><div class="testimonials-image"><img loading="lazy" src="images/testimonials-img-' +
-      i.id +
-      '.jpg" alt="" /></div></article></div>';
-  });
+      quote[i] +
+      '</div><div class="testimonials-image"><img loading="lazy" src="/images/testimonials-img-' +
+      i +
+      '.jpg" alt="" /></div></div></article></div>';
+  }
   testimonials.innerHTML = testimonialText;
 }
-
-
+add_testimonials();
