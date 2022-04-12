@@ -203,7 +203,7 @@ line-height: 130%;
 #hero > div.owl-carousel.owl-theme.hero-carousel-desktop.owl-loaded.owl-drag{
     padding-top:0;
 }
-.hero-wrapper .hero-carousel-desktop{
+.hero-wrapper .hero-carousel-desktop{ 
     margin-top: 0!important;
 }
 }
