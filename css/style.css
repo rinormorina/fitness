@@ -42,8 +42,7 @@ body > section.widget-full.contact-wrapper > div.contact-newsletter > div > div 
     height: 90vh;
     border-top: 2rem #000 solid;
     border-bottom: 2rem #000 solid;
-    background: url("/images/slider-back.png");
-    padding: 0;
+     padding: 0;
     background-size: cover;
 }
 
@@ -66,6 +65,9 @@ body > section.widget-full.contact-wrapper > div.contact-newsletter > div > div 
 body > section:nth-child(4){
     border-bottom: 2rem #000 solid;
 }
+#features{
+    margin-top:9%;
+}
 
 #features > div{
     display: block;
@@ -76,6 +78,40 @@ margin-bottom: 5%;
 }
 #features > div{
     margin-left: 5%;
+}#testimonials > div{
+    padding: 0 !important;
+}
+
+#testimonial_carousel > div.owl-stage-outer > div > div > div > div{
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 10%;
+}
+#testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div>h2{
+    margin-bottom: 20px;
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+}
+#testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div>h3{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+}
+#testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div>div{    position: absolute;
+    height: 55%;
+    top: 60%;
+    width: 5px;
+    left: -2%;
+    background: white;}
+
+#testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div{
+    width: 40%;
 }
 @media only screen and (max-width: 1000px) {
     #hero_btn{margin-top: 20%;}
@@ -110,6 +146,7 @@ margin-bottom: 5%;
         display: none;
     }
     #features{
+        
         height: 120vh;
         background-size: cover;
         background-position-x: 77%;
