@@ -284,23 +284,23 @@
           "featureList1": [
             {
               "featureID": "01",
-              "featureTitle": "Workout Verlauf",
-              "featureDesc": "Mit einem Fingerklick scrollst du durch alle Workouts die du gemacht hast."
+              "featureTitle": "Easy Installation",
+              "featureDesc": "The sensor is fitted to any pin-loaded machine and attached below the weight plates to track the weight's motion and the weight-setting used every rep."
             },
             {
               "featureID": "02",
-              "featureTitle": "Fortschritte tracken",
-              "featureDesc": "Automatische Updates der Statistik nach jedem Training helfen dir auf dem Laufenden zu bleiben."
+              "featureTitle": "No power cords",
+              "featureDesc": "No external power supply is needed. Thus, no extra power cords!"
             },
             {
               "featureID": "03",
-              "featureTitle": "Optimiere Trainingspläne ",
-              "featureDesc": "Kreiere maßgeschneiderte Trainingsroutinen für deine Klienten, basierend auf deren Daten und Statistiken."
+              "featureTitle": "Detection of the set weight ",
+              "featureDesc": "By measuring the pin position the systems tracks the set weight."
             },
             {
               "featureID": "04",
-              "featureTitle": "Direkte Kommunikation",
-              "featureDesc": "Egal wann und wo du bist, gib deinen Klienten Feedback und manage deine Zeit flexibler. (Kommt diesen Sommer)"
+              "featureTitle": "Competitive pricing ",
+              "featureDesc": "Our vision is to enable te benifits of a digital supported training for many people. Thus, we belive in competitive pricing."
             },
             {
               "featureID": "05",
