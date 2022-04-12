@@ -12,7 +12,9 @@ body{
 }
 
 #contact{background-size: 100vw auto;}
-
+#testimonial_carousel > div.owl-dots{
+    display: none;
+}
 .video-sec{
     background-image: url("/images/back.png");
     background-size: cover;
@@ -66,7 +68,7 @@ body > section:nth-child(4){
     border-bottom: 2rem #000 solid;
 }
 #features{
-    margin-top:9%;
+    margin-top:5%;
 }
 
 #features > div{
@@ -84,7 +86,7 @@ margin-bottom: 5%;
 
 #testimonial_carousel > div.owl-stage-outer > div > div > div > div{
     position: absolute;
-    top: 20%;
+    top: 30%;
     color: white;
     left: 10%;
 }
@@ -104,14 +106,25 @@ line-height: 130%;
     line-height: 130%;
 }
 #testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div>div{    position: absolute;
-    height: 55%;
-    top: 60%;
-    width: 5px;
-    left: -2%;
+    height: 50px;
+    top: 70%;
+    width: 2px;
+    left: -1.5%;
     background: white;}
-
+    #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(8) > div > div > div{
+        height: 40%;
+        top: 65%;
+    }
 #testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > div{
     width: 40%;
+}
+
+#testimonials > div{
+    max-width: 100%;
+}
+
+.hero-partners>div{
+    width: 50%;
 }
 @media only screen and (max-width: 1000px) {
     #hero_btn{margin-top: 20%;}
@@ -128,7 +141,14 @@ line-height: 130%;
     }
   }
   @media only screen and (max-width: 600px) {
-    #hero_btn{
+    #testimonial_carousel > div.owl-stage-outer > div > div > div > img{
+        height: 60vh;
+        width: 100%;
+    }   
+    #testimonial_carousel > div.owl-stage-outer > div > div > div > div > div{
+        display: none;
+    }
+     #hero_btn{
         margin-top: 150%;
     }
     #navigation_items > li.nav-item.button-nav{
@@ -159,6 +179,31 @@ line-height: 130%;
     margin-left: -45%;
     margin-bottom: 32%;
 }
-    }
+    
+  #testimonials{
+      height: auto;
   }
-
+  #testimonial_carousel > div.owl-stage-outer > div > div > div > div{
+    top: 10%;
+  }
+  body > section:nth-child(4) > iframe {
+      width: 100%;
+      margin: 0;
+  }
+  /* #testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > img{
+    display: none;
+} */
+#testimonial_carousel > div.owl-stage-outer > div > div > div
+{
+    background-image: url("/images/ProductMobile1.png");
+}
+#hero{
+    height: auto;
+}
+#hero > div.owl-carousel.owl-theme.hero-carousel-desktop.owl-loaded.owl-drag{
+    padding-top:0;
+}
+.hero-wrapper .hero-carousel-desktop{
+    margin-top: 0!important;
+}
+}

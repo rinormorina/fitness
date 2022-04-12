@@ -87,7 +87,7 @@ languageBtn.addEventListener("click", function () {
       add_static_info(domData);
       // add_product_info(domData);
       add_faqs(domData);
-      add_testimonials(domData);
+      // add_testimonials(domData);
       add_features(domData);
     });
   } else if (userLang == "en") {
@@ -112,7 +112,7 @@ languageBtn.addEventListener("click", function () {
       add_static_info(domData);
       // add_product_info(domData);
       add_faqs(domData);
-      add_testimonials(domData);
+      // add_testimonials(domData);
       add_features(domData);
     });
   }
