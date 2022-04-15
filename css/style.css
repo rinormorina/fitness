@@ -249,7 +249,7 @@ body > section:nth-child(4) {
   #features{
     margin-top: -4% !important;
 }
-  body > div.ad {
+  body > div.ad { 
     padding-top: 56%;
   }
   #testimonials {
