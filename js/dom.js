@@ -1,26 +1,13 @@
-//load JSON File
-// var hero_title = document.querySelector("#hero_title");
-// var hero_desc = document.querySelector("#hero_desc");
-// var hero_btn = document.querySelector("#hero_btn");
+
 var testimonials = document.querySelector("#testimonial_carousel");
 var navigation_items = document.querySelector("#navigation_items");
 var products = document.querySelector("#products_carousel");
 var languageBtn = document.querySelector(".language-btn");
-// var platform_title = document.querySelector("#platform_title");
-// var platform_overline = document.querySelector("#platform_overline");
-// var platform_desc = document.querySelector("#platform_desc");
-// var platform_btn = document.querySelector("#platform_btn");
 var featureList1 = document.querySelector("#features_list_1");
 var featureList2 = document.querySelector("#features_list_2");
-// var featuresMainTitle = document.querySelector("#features_mainTitle");
-// var featuresMainDesc = document.querySelector("#features_mainDesc");
 var featuresSecondaryTitle = document.querySelector("#features_titleSecondary");
 var featuresSecondaryDesc = document.querySelector("#features_descSecondary");
 var featuresBtn = document.querySelector("#features_btn");
-// var gym_title = document.querySelector("#gym_title");
-// var gym_desc = document.querySelector("#gym_desc");
-// var gym_overline = document.querySelector("#gym_overline");
-// var gym_btn = document.querySelector("#gym_btn");
 var price_title = document.querySelector("#price_title");
 var price_desc = document.querySelector("#price_desc");
 var price_desc_2 = document.querySelector("#price_desc_2");
@@ -36,12 +23,7 @@ var nav_contact = document.querySelector("#nav_contact");
 var send_btn = document.querySelector(".send_btn");
 var send_btn1 = document.querySelector(".send_btn1");
 
-//nav elements
-//CLASSES
-//error
-//success
-//send_btn
-//contact_title
+
 const a = document.getElementById("CybotCookiebotDialogBody");
 if (a) {
   a.addEventListener(onclick, function (e) {
@@ -49,11 +31,8 @@ if (a) {
   });
 }
 
-//set browser language
-// let userLang = navigator.language || navigator.userLanguage;
 var userLang = "de";
 
-//get data from local File
 function readTextFile(file, callback) {
   var rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
@@ -64,30 +43,20 @@ function readTextFile(file, callback) {
     }
   };
   rawFile.send(null);
-}
+}    
 
 languageBtn.addEventListener("click", function () {
-  // let userLang = "de";
   if (userLang == "de") {
     userLang = "en";
     readTextFile("./content/languages.json", function (text) {
       let data = JSON.parse(text);
       let domData;
-      //choose data for DOM according to set browser lang
-      userLang == "de" //beginsWith()
+      userLang == "de" 
         ? (domData = data.languages[1].deutsch)
         : (domData = data.languages[0].english);
-      /**
-       *
-       * call functions to build DOM
-       *
-       *
-       */
-
+     
       add_static_info(domData);
-      // add_product_info(domData);
       add_faqs(domData);
-      // add_testimonials(domData);
       add_features(domData);
     });
   } else if (userLang == "en") {
@@ -98,21 +67,13 @@ languageBtn.addEventListener("click", function () {
       let data = JSON.parse(text);
       let domData;
 
-      //choose data for DOM according to set browser lang
-      userLang == "de" //beginsWith()
+      userLang == "de"
         ? (domData = data.languages[1].deutsch)
         : (domData = data.languages[0].english);
-      /**
-       *
-       * call functions to build DOM
-       *
-       *
-       */
+    
 
       add_static_info(domData);
-      // add_product_info(domData);
       add_faqs(domData);
-      // add_testimonials(domData);
       add_features(domData);
     });
   }
@@ -122,51 +83,22 @@ readTextFile("./content/languages.json", function (text) {
   let data = JSON.parse(text);
   let domData;
 
-  //choose data for DOM according to set browser lang
-  userLang == "de" //beginsWith()
+  userLang == "de" 
     ? (domData = data.languages[1].deutsch)
     : (domData = data.languages[0].english);
-  /**
-   *
-   * call functions to build DOM
-   *
-   *
-   */
+ 
 
   add_static_info(domData);
-  // add_product_info(domData);
   add_faqs(domData);
-  // add_testimonials(domData);
   add_features(domData);
 });
 
 function add_static_info(domData) {
-  // hero_title.innerHTML = domData.hero.title;
-  // hero_desc.innerHTML = domData.hero.desc;
-  // hero_btn.innerHTML = domData.hero.btn;
-  // product_title.innerHTML = domData.product.title;
-  // platform_title.innerHTML = domData.platform.title;
-  // platform_desc.innerHTML = domData.platform.desc;
-  // platform_overline.innerHTML = domData.platform.overline;
-  // platform_btn.innerHTML = domData.platform.buttonDesc;
+ 
   news_title.innerHTML = domData.newsletter.title;
   contact_title.innerHTML = domData.contact.title;
-  // gym_btn.innerHTML = domData.navigation[4].value;
   nav_contact.innerHTML = domData.navigation[4].value;
   faqTitle.innerHTML = domData.faq.title;
-  // featuresMainTitle.innerHTML = domData.feature.titleMain;
-
-  // featuresMainDesc.innerHTML = domData.feature.desc;
-
-  // gym_title.innerHTML = domData.gym.title;
-  // gym_overline.innerHTML = domData.gym.overline;
-  // gym_desc.innerHTML = domData.gym.desc;
-  // price_title.innerHTML = domData.price.title;
-  // price_desc.innerHTML = domData.price.desc;
-  // price_desc_2.innerHTML = domData.price.desc2;
-  // price_legals.innerHTML = domData.price.priceAnnotation;
-  // price_price.innerHTML = domData.price.priceTag;
-
   send_btn.innerHTML = domData.newsletter.button;
   send_btn1.innerHTML = domData.newsletter.button;
 }
@@ -194,24 +126,6 @@ function add_features(domData) {
 
 }
 
-// function add_product_info(domData) {
-//   let productElements = "";
-//   domData.product.carousel.forEach(function (i, k) {
-//     productElements +=
-//       '<div class="item"><article class="product-item"><div class="product-image-wrapper"><div class="product-page">' +
-//       i.page +
-//       '</div><div class="product-image"><img loading="lazy" src="images/product-image-' +
-//       i.productID +
-//       '.png" alt="" /></div></div><div class="product-copy"><div class="product-copy-number">' +
-//       i.productID +
-//       '</div><div class="title-main">' +
-//       i.productTitle +
-//       '</div><div class="description">' +
-//       i.prodcutDesc +
-//       "</div></div></article></div>";
-//   });
-//   products.innerHTML = productElements;
-// }
 
 function add_faqs(domData) {
   let faqElements = "";
