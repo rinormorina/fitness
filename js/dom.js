@@ -61,7 +61,6 @@ languageBtn.addEventListener("click", function () {
     });
   } else if (userLang == "en") {
     userLang = "de";
-    console.log(userLang);
 
     readTextFile("./content/languages.json", function (text) {
       let data = JSON.parse(text);

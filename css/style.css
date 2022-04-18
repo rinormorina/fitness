@@ -1,3 +1,4 @@
+
 body {
   width: 100vw !important;
   overflow-x: hidden !important;
@@ -5,11 +6,18 @@ body {
 #features > img {
   display: none;
 }
+#hero{
+    height: auto;
+}
 #contact {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+#testimonials{
+height: auto;
+}
+
 #hero > div.banner_hero > img {
   width: 100%;
 }
@@ -25,9 +33,7 @@ body {
   width: 40%;
 }
 
-#contact {
-  background-size: 100vw auto;
-}
+
 #testimonial_carousel > div.owl-dots {
   display: none;
 }
@@ -80,7 +86,7 @@ body
   margin: 0;
 }
 #navigation_items > li.nav-item.button-nav {
-  margin: 0 3% 0 20%;
+  margin: 0 3% 0 10%;
 }
 .language-btn {
   cursor: pointer;
@@ -97,7 +103,7 @@ body > section:nth-child(4) {
   color: white;
 }
 #features > div {
-  margin-left: 5%;
+padding-left: 5%;
 }
 #testimonials > div {
   padding: 0 !important;
@@ -189,13 +195,22 @@ body > section:nth-child(4) {
 
 @media only screen and (max-width: 1900px) {
   #hero_btn {
-    margin-top: 60%;
+    margin-top: 60% !important;
+  }
+ 
+#hero_btn {
+    margin-top: 60% !important;
   }
 }
-@media only screen and (max-width: 1800px) {
-    #features{
-        margin-top: 14%;
+@media only screen and (max-width: 1920px) {
+    
+    
+    #hero_btn {
+      margin-top: 50%;
     }
+  }
+@media only screen and (max-width: 1800px) {
+    
   body > div.ad {
     padding-top: 36%;
   }
@@ -216,17 +231,13 @@ body > section:nth-child(4) {
   #hero_btn {
     margin-top: 50%;
   }
-  #features{
-    margin-top: 7% !important;
-}
+ 
 }
 @media only screen and (max-width: 1400px) {
   #hero_btn {
     margin-top: 45%;
   }
-  #features{
-    margin-top: 4% !important;
-}
+ 
  
 }
 
@@ -235,9 +246,7 @@ body > section:nth-child(4) {
   #hero_btn {
     margin-top: 40%;
   }
-  #features{
-    margin-top: 2% !important;
-}
+  
   body > div.ad {
     padding-top: 57%;
   }
@@ -246,11 +255,9 @@ body > section:nth-child(4) {
   #hero_btn {
     margin-top: 36%;
   }
-  #features{
-    margin-top: -4% !important;
-}
+ 
   body > div.ad { 
-    padding-top: 56%;
+    padding-top: 44%;
   }
   #testimonials {
     border-top: none;
@@ -279,6 +286,9 @@ body > section:nth-child(4) {
   .ad > img {
     margin-top: -20% !important;
   }
+  #navigation_items > li.nav-item.button-nav {
+    margin: 0 10% 0 3%;
+  }
 }
 @media only screen and (max-width: 1100px) {
   #hero_btn {
@@ -287,11 +297,24 @@ body > section:nth-child(4) {
   .ad > img {
     margin-top: -22% !important;
   }
+  .ad{
+      padding-top: 65% !important ;
+  }
 }
 @media only screen and (max-width: 1000px) {
   #contact {
     padding: 0;
   }
+  #testimonial_carousel
+  > div.owl-stage-outer
+  > div
+  > div.owl-item.active
+  > div
+  > div
+  > div {
+  top: 75% !important;
+}
+  
   #reused_form > button {
     margin-bottom: 0;
   }
@@ -299,9 +322,8 @@ body > section:nth-child(4) {
     padding-top: 63%;
   }
   #hero_btn {
-    margin-top: 190%;
     width: 200px;
-    margin-left: -48%;
+    left: 85%;
   }
   #hero {
     background: none;
@@ -396,8 +418,14 @@ body > section:nth-child(4) {
   #hero_btn {
     margin-top: 160%;
   }
+  #reused_form{
+    width: 100%;
+}
 }
 @media only screen and (max-width: 600px) {
+    #features > img:nth-child(1){
+        display: none;
+    }
   #hero > div.banner_hero > img:nth-child(1) {
     display: none;
   }
@@ -436,7 +464,6 @@ body > section:nth-child(4) {
   #contact {
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 85vh;
   }
   body
     > section.widget-full.contact-wrapper
@@ -453,14 +480,18 @@ body > section:nth-child(4) {
     height: 120vh;
     background-size: cover;
     background-position-x: 77%;
+    padding: 0;
+    height: auto;
     background: url("/images/slider-back.png");
   }
   #features > img {
     display: block;
     width: 100%;
-    transform: scale(2.2);
-    margin-left: -45%;
-    margin-bottom: 32%;
+    
+  }
+  #features_list_1
+  {
+      width: 100%;
   }
 
   #testimonials {
@@ -491,4 +522,47 @@ body > section:nth-child(4) {
   #hero_btn {
     width: 50%;
   }
+}
+
+@media only screen and (max-width: 400px) {
+    #hero_btn {
+        margin-top: 360% !important;
+        margin-left: -33px;
+      }
+
+}
+
+section{
+    display: block !important;
+}
+#navigation_items > li.nav-item.language-btn{
+    display: contents;
+}
+#navigation_items > li.nav-item.language-btn>span{
+    margin-top: 1%;
+}
+
+#hero > div.hero-copy{
+    width: 100%;
+    height: 100%;
+}
+
+
+#hero > div.hero-copy>div
+{
+    width: 100%;
+    height: 100%;
+}
+#hero > div.hero-copy>div>a{
+    position: absolute;
+    bottom: 10%;
+    left: 39%
+}
+
+#contact > div > div > div:nth-child(2)
+{
+    margin-bottom: 0;
+}
+#reused_form{
+    width: 50%;
 }
