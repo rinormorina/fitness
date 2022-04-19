@@ -201,6 +201,9 @@ padding-left: 5%;
 #hero_btn {
     margin-top: 60% !important;
   }
+  body > div.ad{
+      padding-top: 53%;
+  }
 }
 @media only screen and (max-width: 1920px) {
     
@@ -534,6 +537,7 @@ padding-left: 5%;
 
 section{
     display: block !important;
+    height: auto;
 }
 #navigation_items > li.nav-item.language-btn{
     display: contents;
@@ -574,12 +578,21 @@ section{
 #reused_form{
     width: 50%;
 }
-/* #hero{
 
+    body > section.widget-full.contact-wrapper > div.contact-newsletter > div > div
+{
+    display: contents;
+}
 
-width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;} */
+#testimonials{
+    height: 120vh;
+}
+#testimonials > div{
+    height: 120vh;
+}
+#testimonial_carousel{
+    height: 120vh;
+}
+#testimonial_carousel > div.owl-stage-outer{
+    height: 100%;
+}
