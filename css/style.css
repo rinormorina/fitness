@@ -585,13 +585,13 @@ section{
 }
 
 #testimonials{
-    height: 120vh;
+    height: 110vh;
 }
 #testimonials > div{
-    height: 120vh;
+    height: 110vh;
 }
 #testimonial_carousel{
-    height: 120vh;
+    height: 110vh;
 }
 #testimonial_carousel > div.owl-stage-outer{
     height: 100%;
