@@ -1,29 +1,36 @@
-
 body {
   width: 100vw !important;
   overflow-x: hidden !important;
 }
+#testimonials-mobile {
+  display: none;
+
+  padding: 0;
+}
+#testimonials-mobile > div {
+  display: none;
+}
 #features > img {
   display: none;
 }
-#hero{
-    height: auto;
+#hero {
+  height: auto;
 }
 #contact {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
-#testimonials{
-height: auto;
+#testimonials {
+  height: auto;
 }
 
 #hero > div.banner_hero > img {
   width: 100%;
 }
 #hero > div.banner_hero > img:nth-child(2) {
-    display: none;
-  }
+  display: none;
+}
 #banner_hero {
   margin-left: auto;
   margin-right: auto;
@@ -32,7 +39,6 @@ height: auto;
 #features_list_1 {
   width: 40%;
 }
-
 
 #testimonial_carousel > div.owl-dots {
   display: none;
@@ -86,7 +92,7 @@ body
   margin: 0;
 }
 #navigation_items > li.nav-item.button-nav {
-  margin: 0 3% 0 10%;
+  margin: 0 3% 0 19%;
 }
 .language-btn {
   cursor: pointer;
@@ -103,7 +109,7 @@ body > section:nth-child(4) {
   color: white;
 }
 #features > div {
-padding-left: 5%;
+  padding-left: 5%;
 }
 #testimonials > div {
   padding: 0 !important;
@@ -197,23 +203,20 @@ padding-left: 5%;
   #hero_btn {
     margin-top: 60% !important;
   }
- 
-#hero_btn {
+
+  #hero_btn {
     margin-top: 60% !important;
   }
-  body > div.ad{
-      padding-top: 53%;
+  body > div.ad {
+    padding-top: 53%;
   }
 }
 @media only screen and (max-width: 1920px) {
-    
-    
-    #hero_btn {
-      margin-top: 50%;
-    }
+  #hero_btn {
+    margin-top: 50%;
   }
+}
 @media only screen and (max-width: 1800px) {
-    
   body > div.ad {
     padding-top: 36%;
   }
@@ -225,7 +228,6 @@ padding-left: 5%;
   body > div.ad {
     padding-top: 39%;
   }
-
 }
 @media only screen and (max-width: 1600px) {
   body > div.ad {
@@ -234,33 +236,29 @@ padding-left: 5%;
   #hero_btn {
     margin-top: 50%;
   }
- 
 }
 @media only screen and (max-width: 1400px) {
   #hero_btn {
     margin-top: 45%;
   }
- 
- 
 }
-
 
 @media only screen and (max-width: 1300px) {
   #hero_btn {
     margin-top: 40%;
   }
-  
+
   body > div.ad {
-    padding-top: 47%;
+    padding-top: 57% !important;
   }
 }
 @media only screen and (max-width: 1200px) {
   #hero_btn {
     margin-top: 36%;
   }
- 
-  body > div.ad { 
-    padding-top: 59%;
+
+  body > div.ad {
+    padding-top: 64% !important;
   }
   #testimonials {
     border-top: none;
@@ -300,8 +298,8 @@ padding-left: 5%;
   .ad > img {
     margin-top: -22% !important;
   }
-  .ad{
-      padding-top: 65% !important ;
+  .ad {
+    padding-top: 65% !important ;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -309,15 +307,15 @@ padding-left: 5%;
     padding: 0;
   }
   #testimonial_carousel
-  > div.owl-stage-outer
-  > div
-  > div.owl-item.active
-  > div
-  > div
-  > div {
-  top: 75% !important;
-}
-  
+    > div.owl-stage-outer
+    > div
+    > div.owl-item.active
+    > div
+    > div
+    > div {
+    top: 75% !important;
+  }
+
   #reused_form > button {
     margin-bottom: 0;
   }
@@ -345,7 +343,7 @@ padding-left: 5%;
   }
 
   #navigation_items > li.nav-item.button-nav {
-    margin: 0 5% 0 0;
+    margin: 0 5% 0 10%;
   }
 
   #hero > div.owl-carousel.owl-theme.hero-carousel-desktop.owl-loaded.owl-drag {
@@ -404,9 +402,7 @@ padding-left: 5%;
   #hero_btn {
     width: 200px;
   }
-  #features {
-    margin-top: 0 !important;
-  }
+
   #testimonials {
     border-bottom: none;
   }
@@ -421,14 +417,14 @@ padding-left: 5%;
   #hero_btn {
     margin-top: 160%;
   }
-  #reused_form{
-    width: 100%;
-}
+  #reused_form {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
-    #features > img:nth-child(1){
-        display: none;
-    }
+  #features > img:nth-child(1) {
+    display: none;
+  }
   #hero > div.banner_hero > img:nth-child(1) {
     display: none;
   }
@@ -447,6 +443,7 @@ padding-left: 5%;
   #contact {
     padding: 0;
   }
+
   body
     > section.widget-full.contact-wrapper
     > div.contact-newsletter
@@ -490,16 +487,14 @@ padding-left: 5%;
   #features > img {
     display: block;
     width: 100%;
-    
   }
-  #features_list_1
-  {
-      width: 100%;
+  #features_list_1 {
+    width: 100%;
   }
 
-  #testimonials {
+  /* #testimonials {
     height: auto;
-  }
+  } */
   #testimonial_carousel > div.owl-stage-outer > div > div > div > div {
     top: 10%;
   }
@@ -510,9 +505,7 @@ padding-left: 5%;
   /* #testimonial_carousel > div.owl-stage-outer > div > div.owl-item.active > div > img{
     display: none;
 } */
-  #testimonial_carousel > div.owl-stage-outer > div > div > div {
-    background-image: url("/images/ProductMobile1.png");
-  }
+
   #hero {
     height: auto;
   }
@@ -525,74 +518,159 @@ padding-left: 5%;
   #hero_btn {
     width: 50%;
   }
+  #testimonials {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    #hero_btn {
-        margin-top: 360% !important;
-        margin-left: -33px;
-      }
-
+  #hero_btn {
+    left: 33% !important;
+  }
 }
 
-section{
+section {
+  display: block !important;
+  height: auto;
+}
+#navigation_items > li.nav-item.language-btn {
+  display: contents;
+}
+#navigation_items > li.nav-item.language-btn > span {
+  margin-top: 1%;
+}
+
+#hero > div.hero-copy {
+  width: 100%;
+  height: 100%;
+}
+
+#hero > div.hero-copy > div {
+  width: 100%;
+  height: 100%;
+}
+#hero > div.banner_hero {
+  width: 100%;
+  height: 100%;
+}
+#hero > div.banner_hero > img:nth-child(1) {
+  width: 100%;
+  height: 100%;
+}
+#hero > div.hero-copy > div > a {
+  position: absolute;
+  bottom: 10%;
+  left: 39%;
+}
+
+#contact > div > div > div:nth-child(2) {
+  margin-bottom: 0;
+}
+#reused_form {
+  width: 50%;
+}
+
+body
+  > section.widget-full.contact-wrapper
+  > div.contact-newsletter
+  > div
+  > div {
+  display: contents;
+}
+
+#testimonials {
+  height: 110vh;
+}
+#testimonials > div {
+  height: 110vh;
+}
+#testimonial_carousel {
+  height: 110vh;
+}
+#testimonial_carousel > div.owl-stage-outer {
+  height: 100%;
+}
+#reused_form > button {
+  margin-bottom: 20px;
+}
+
+#nav_contact {
+  background: #ffffff;
+  opacity: 0.6;
+  border-radius: 80px;
+  color: black;
+  border-color: white;
+}
+
+@media only screen and (max-width: 599px) {
+  #testimonials-mobile {
     display: block !important;
-    height: auto;
-}
-#navigation_items > li.nav-item.language-btn{
-    display: contents;
-}
-#navigation_items > li.nav-item.language-btn>span{
-    margin-top: 1%;
-}
+  }
+  #testimonials-mobile > div {
+    display: block !important;
+  }
+  #testimonials-mobile {
+    height: 100vh;
+  }
+  #testimonials-mobile > div {
+    height: 100vh;
+  }
+  #testimonial_carousel {
+    height: 100vh;
+  }
+  #testimonial_carousel > div {
+    height: 100vh;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(4) {
+    background: url("/images/ProductMobile1.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(5) {
+    background: url("/images/ProductMobile2.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(6) {
+    background: url("/images/ProductMobile3.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(7) {
+    background: url("/images/ProductMobile4.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(8) {
+    background: url("/images/ProductMobile5.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div:nth-child(9) {
+    background: url("/images/ProductMobile1.png");
+    height: 100vh;
+    width: 100vw;
+  }
 
-#hero > div.hero-copy{
-    width: 100%;
-    height: 100%;
+  #testimonials-mobile {
+    padding: 0;
+  }
+  #testimonials-mobile > div {
+    padding: 0 15px !important;
+  }
+  #testimonial_carousel {
+    height: auto !important;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div > div > div {
+    width: 80% !important;
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div > div > div >h2 {
+    font-size: 38px !important; 
+  }
+  #testimonial_carousel > div.owl-stage-outer > div > div > div > div {
+    top: 6%;
+  }
 }
-
-
-#hero > div.hero-copy>div
-{
-    width: 100%;
-    height: 100%;
-}
-#hero > div.banner_hero{
-    width: 100%;
-    height: 100%;
-}
-#hero > div.banner_hero > img:nth-child(1){
-    width: 100%;
-    height: 100%;
-}
-#hero > div.hero-copy>div>a{
-    position: absolute;
-    bottom: 10%;
-    left: 39%
-}
-
-#contact > div > div > div:nth-child(2)
-{
-    margin-bottom: 0;
-}
-#reused_form{
-    width: 50%;
-}
-
-    body > section.widget-full.contact-wrapper > div.contact-newsletter > div > div
-{
-    display: contents;
-}
-
-#testimonials{
-    height: 110vh;
-}
-#testimonials > div{
-    height: 110vh;
-}
-#testimonial_carousel{
-    height: 110vh;
-}
-#testimonial_carousel > div.owl-stage-outer{
-    height: 100%;
+#testimonials-mobile > div {
+  padding: 0 !important;
 }
