@@ -208,7 +208,7 @@ body > section:nth-child(4) {
     margin-top: 60% !important;
   }
   body > div.ad {
-    padding-top: 53%;
+    padding-top: 53% !important;
   }
 }
 @media only screen and (max-width: 1920px) {
