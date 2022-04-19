@@ -75,7 +75,6 @@ body
 }
 
 #testimonials {
-  height: 90vh;
   border-top: 2rem #000 solid;
   border-bottom: 2rem #000 solid;
   padding: 0;
@@ -578,15 +577,7 @@ body
   display: contents;
 }
 
-#testimonials {
-  height: 110vh;
-}
-#testimonials > div {
-  height: 110vh;
-}
-#testimonial_carousel {
-  height: 110vh;
-}
+
 #testimonial_carousel > div.owl-stage-outer {
   height: 100%;
 }
